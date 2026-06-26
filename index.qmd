@@ -21,10 +21,6 @@ pagetitle: "EM 619: Machine Learning for Predictive Analysis"
 **Term:** Module 3, 2026 — classes begin **Saturday, 27 June 2026**
 :::
 
-::: {.callout-warning}
-Session timings, dates, and the lecture plan below are based on the previous offering and are **tentative**. Confirmed details for the upcoming term will be announced on the course channel.
-:::
-
 ## Course Objectives
 
 This course enables students to comprehend fundamental machine learning concepts and apply a variety of algorithms to develop predictive models. It covers the essential aspects of predictive modeling — regression, decision trees, SVM, and neural networks — with emphasis on:
