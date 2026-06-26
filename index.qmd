@@ -1,0 +1,140 @@
+---
+title: "EM 619: Machine Learning for Predictive Analysis"
+subtitle: "e-Masters in Data Science for Decision Making (DSDM) · IIT Gandhinagar"
+pagetitle: "EM 619: Machine Learning for Predictive Analysis"
+---
+
+::: {.callout-note}
+## Course Information
+
+**Instructors:**
+
+- [Prof. Nipun Batra](https://nipunbatra.github.io) — [nipun.batra@iitgn.ac.in](mailto:nipun.batra@iitgn.ac.in) · Office AB 13/401C · +91 79 2395 2539
+- Prof. Ashish Tendulkar — [ashishvt@gmail.com](mailto:ashishvt@gmail.com)
+
+**Teaching Assistants:**
+
+- Abhay Venugopal Pisharodi — [24290001@iitgn.ac.in](mailto:24290001@iitgn.ac.in)
+- Veerendra Kumar — [veerendra.kumar@iitgn.ac.in](mailto:veerendra.kumar@iitgn.ac.in)
+
+**Mode:** Online — live sessions over Zoom with recordings
+
+**Session timings:** Thu 8:15–9:45 PM · Sat 11:00 AM–12:30 PM · Sun 10:00–11:30 AM
+:::
+
+::: {.callout-warning}
+Session timings, dates, and the lecture plan below are based on the previous offering and are **tentative**. Confirmed details for the upcoming term will be announced on the course channel.
+:::
+
+## Course Objectives
+
+This course enables students to comprehend fundamental machine learning concepts and apply a variety of algorithms to develop predictive models. It covers the essential aspects of predictive modeling — regression, decision trees, SVM, and neural networks — with emphasis on:
+
+- **Evaluating** model performance using appropriate metrics and selecting the optimal model for a task.
+- **Feature selection and engineering**, the bias–variance trade-off, overfitting and underfitting — managed via regularization and cross-validation.
+- **Ensemble methods** — bagging, boosting, and stacking — to enhance predictive performance.
+- Applying these techniques to **real-world predictive tasks** on unseen data.
+- Building **proficiency in Python ML libraries** to implement and fine-tune models.
+
+## What you'll learn
+
+::: {.card-grid}
+::: {.feature-card}
+<span class="icon">📈</span>
+### Supervised Learning
+Linear & logistic regression, decision trees, random forests, and SVMs — model fitting, interpretation, and applications.
+:::
+
+::: {.feature-card}
+<span class="icon">🧩</span>
+### Ensembles
+Bagging, boosting, and stacking — gradient boosting machines, bootstrapping, aggregation, and feature importance.
+:::
+
+::: {.feature-card}
+<span class="icon">🧠</span>
+### Neural Networks
+Feedforward nets, backpropagation, CNNs, and Transformers — implemented hands-on with Keras 3.0.
+:::
+
+::: {.feature-card}
+<span class="icon">🎯</span>
+### Model Evaluation
+Precision, recall, F1, ROC; cross-validation; the bias–variance trade-off; and taming overfitting with regularization.
+:::
+
+::: {.feature-card}
+<span class="icon">🔍</span>
+### Unsupervised Learning
+Clustering (K-means, hierarchical, density-based) and dimensionality reduction (PCA, t-SNE) for segmentation & visualization.
+:::
+
+::: {.feature-card}
+<span class="icon">⚖️</span>
+### ML in Practice
+End-to-end projects across healthcare, finance, and retail — with a serious look at bias, fairness, and transparency.
+:::
+:::
+
+## Syllabus
+
+**1 · Review of ML Concepts** — overview & applications, conventions & metrics, basic statistics, data preparation and preprocessing.
+
+**2 · Supervised Learning** — linear & logistic regression, decision trees & random forests (entropy, information gain), support vector machines (kernels, hyperplanes).
+
+**3 · Unsupervised Learning** — clustering (K-means, hierarchical, density-based), dimensionality reduction (PCA, t-SNE), applications in segmentation & visualization.
+
+**4 · Neural Networks & Deep Learning** — architecture, activations, feedforward & backpropagation; CNNs for vision; RNNs for sequences.
+
+**5 · Ensemble Methods** — bagging, boosting, stacking; random forests; gradient boosting machines.
+
+**6 · Model Evaluation** — accuracy, precision, recall, F1, ROC; cross-validation & bootstrapping; bias–variance trade-off; ridge & lasso.
+
+**7 · Predictive Modelling in Practice** — applications in healthcare, finance, retail, manufacturing; ethics, fairness & transparency; an end-to-end project.
+
+The date-wise breakdown with slides and notebooks lives on the [Schedule](schedule.qmd) page.
+
+## Prerequisites
+
+No hard prerequisites, but the following background helps you keep pace:
+
+- **Python programming** — comfortable with NumPy, pandas, and matplotlib
+- **Linear algebra** — vectors, matrices, and operations
+- **Calculus** — derivatives and the chain rule
+- **Probability & statistics** — distributions, expectations, hypothesis testing
+
+### Preparation Materials
+
+To refresh before the course begins:
+
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) — Jake VanderPlas (Chapters 1–4)
+- [Linear Algebra for Machine Learning](https://machinelearningmastery.com/linear-algebra-machine-learning/)
+- [Khan Academy: Statistics & Probability](https://www.khanacademy.org/math/statistics-probability)
+- [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) — free PDF
+
+## Reference Textbooks
+
+**Primary references:**
+
+1. **Mathematics for Machine Learning** — Deisenroth, Faisal & Ong · [Free PDF](https://mml-book.github.io/book/mml-book.pdf)
+2. **An Introduction to Statistical Learning** — James, Witten, Hastie & Tibshirani · [Free online](https://www.statlearning.com/)
+3. **Pattern Recognition and Machine Learning** — Christopher Bishop · [Free PDF](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+
+**Additional references:**
+
+4. **The Elements of Statistical Learning** — Friedman, Hastie & Tibshirani · [Free PDF](https://hastie.su.domains/ElemStatLearn/)
+5. **Deep Learning** — Goodfellow, Bengio & Courville · [Free online](https://www.deeplearningbook.org/)
+6. **Pattern Classification** — Duda, Hart & Stork
+7. **Machine Learning** — Tom Mitchell
+8. **Machine Learning: A Probabilistic Perspective** — Kevin Murphy
+
+## Additional Learning Resources
+
+**Online courses:**
+
+- [NPTEL — Machine Learning](https://www.youtube.com/watch?v=r4sgKrRL2Ys&list=PL1xHD4vteKYVpaIiy295pg6_SY5qznc77) — Balaraman Ravindran
+- [CMU — Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml) — Mitchell & Balcan
+- [Coursera — Machine Learning](https://www.coursera.org/learn/machine-learning) — Andrew Ng
+- [fast.ai — Machine Learning for Coders](https://www.fast.ai/)
+- [fast.ai — Practical Deep Learning](https://course.fast.ai/)
+- [UCI — Machine Learning](http://sli.ics.uci.edu/Classes/2015W-273a) — Alex Ihler

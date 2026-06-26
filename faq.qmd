@@ -1,0 +1,82 @@
+---
+title: "FAQ"
+pagetitle: "FAQ — EM 619 MLPA"
+---
+
+## Course Logistics
+
+::: {.callout-note collapse="true"}
+## How are the sessions conducted?
+Sessions are **online over Zoom** and recorded. Live timings (previous offering): **Thu 8:15–9:45 PM**, **Sat 11:00 AM–12:30 PM**, and **Sun 10:00–11:30 AM**. Recordings are posted on the course channel.
+:::
+
+::: {.callout-note collapse="true"}
+## Who teaches the course?
+The course is co-taught by **Prof. Nipun Batra** and **Prof. Ashish Tendulkar**, supported by TAs **Abhay Venugopal Pisharodi** and **Veerendra Kumar**. See the [Home page](index.qmd#course-information) for contact details.
+:::
+
+::: {.callout-note collapse="true"}
+## What programming language and tools do we use?
+**Python**, with libraries such as **NumPy, pandas, scikit-learn**, and **Keras 3.0** for neural networks. Most assignments require programming.
+:::
+
+---
+
+## Prerequisites
+
+::: {.callout-note collapse="true"}
+## What background do I need?
+There are no hard prerequisites, but comfort with **Python**, **linear algebra**, **calculus**, and **basic probability & statistics** will help. See the [preparation materials](index.qmd#preparation-materials) on the Home page to brush up.
+:::
+
+::: {.callout-note collapse="true"}
+## I haven't taken a formal ML course. Can I still take this?
+Yes. The course reviews the necessary foundations before moving to advanced topics — but expect to put in extra effort in the first few weeks.
+:::
+
+---
+
+## Assignments
+
+::: {.callout-note collapse="true"}
+## Are assignments individual or group work?
+**Groups of 2.** Each assignment is followed by a **viva voce** where both members should be able to explain the submitted work.
+:::
+
+::: {.callout-note collapse="true"}
+## Can I discuss assignments with others?
+Yes — you are **encouraged** to discuss problems with peers, TAs, and instructors **before** submission. The final submission must be your group's own work.
+:::
+
+::: {.callout-note collapse="true"}
+## How many assignments are there?
+About **3–5** through the semester, weighted **45%** in total. See [Evaluation](grading.qmd) for the full breakdown.
+:::
+
+---
+
+## Quizzes & Exams
+
+::: {.callout-note collapse="true"}
+## How many quizzes are there, and what's the format?
+About **4–5 announced quizzes** with short conceptual questions (one-line, MCQ, or fill-in-the-blank). They may be taken at the **start, middle, or end** of a lecture, and each carries **equal weight**.
+:::
+
+::: {.callout-note collapse="true"}
+## What about exams?
+Two examinations: **Examination I** (mid-semester, 20%) and **Examination II** (end-semester, 25%).
+:::
+
+---
+
+## Materials
+
+::: {.callout-note collapse="true"}
+## Where do I find slides and notebooks?
+The [Schedule](schedule.qmd) page links slides and notebooks for each lecture, drawn from the shared [`ml-teaching`](https://github.com/nipunbatra/ml-teaching) repository. Session recordings are posted on the course channel.
+:::
+
+::: {.callout-note collapse="true"}
+## Which textbooks should I follow?
+The course draws on several references — most prominently *An Introduction to Statistical Learning*, *Pattern Recognition and Machine Learning*, and *Mathematics for Machine Learning*. The full annotated list is on the [Home page](index.qmd#reference-textbooks).
+:::

@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "EM 619: Machine Learning for Predictive Analysis"
+  description: "EM 619 (MLPA) — part of the e-Masters in Data Science for Decision Making (DSDM) at IIT Gandhinagar"
+  favicon: images/favicon.png
+  open-graph: true
+  navbar:
+    background: "#ffffff"
+    foreground: "#333333"
+    title: "EM 619 · MLPA"
+    right:
+      - href: index.qmd
+        text: Home
+      - href: schedule.qmd
+        text: Schedule
+      - href: grading.qmd
+        text: Evaluation
+      - href: faq.qmd
+        text: FAQ
+      - href: https://nipunbatra.github.io
+        text: Instructor
+  page-footer:
+    left: "EM 619: Machine Learning for Predictive Analysis | IIT Gandhinagar"
+    center: "© 2026 Nipun Batra & Ashish Tendulkar"
+    right: "Made with [Quarto](https://quarto.org) | [Prof. Nipun Batra](https://nipunbatra.github.io)"
+    background: "#fffbeb"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    css: [styles.scss]
+    toc: false
+    page-layout: full
+    smooth-scroll: true
+    highlight-style: github
+    mainfont: "Inter, system-ui, -apple-system, sans-serif"
+    monofont: "JetBrains Mono, Monaco, Consolas, monospace"
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    anchor-sections: true
+    fig-responsive: true
+
+execute:
+  freeze: auto

@@ -1,0 +1,53 @@
+---
+title: "Evaluation"
+pagetitle: "Evaluation — EM 619 MLPA"
+---
+
+::: {.callout-warning}
+## Tentative
+This grading scheme is **tentative** and may be modified during the semester based on student feedback. Any changes will be discussed in class and adopted by consensus between the instructors and students before implementation.
+:::
+
+## Grade Distribution
+
+The final grade is computed from the total score using the following weights:
+
+| Component | Weight |
+|:----------|:------:|
+| **Assignments** (in groups of 2, followed by viva) | **45%** |
+| **Examination I** (Mid-semester) | **20%** |
+| **Examination II** (End-semester) | **25%** |
+| **Attendance & Class Participation** | **10%** |
+
+## Assignments & Tutorials
+
+::: {.callout-note}
+- There will be about **3–5 assignments** through the semester.
+- Questions are based on **applying course concepts** to arrive at solutions; most assignments require **computer programming** in Python.
+- Assignments are done in **groups of 2** and evaluated via a **viva voce**.
+- You are encouraged to discuss problems with peers, TAs, and instructors **before** submission.
+:::
+
+## Quizzes
+
+::: {.callout-note}
+- About **4–5 announced quizzes**, taken at the beginning, middle, or end of a lecture.
+- Typically **conceptual questions** requiring short answers — one-line, multiple-choice, or fill-in-the-blank.
+- Questions may come from content **already covered** or from material to be **covered in the next few classes**.
+- Each quiz carries **equal weight**, irrespective of its maximum marks.
+:::
+
+## Examinations
+
+Two examinations are held during the semester:
+
+- **Examination I** — mid-semester (20%)
+- **Examination II** — end-semester (25%)
+
+## Attendance & Class Participation
+
+::: {.callout-note}
+Students are expected to **ask questions and participate** in discussions. Those who typically remain passive will be awarded zero participation marks.
+
+Attendance marks are computed from the ratio of **classes attended** to **total lectures**.
+:::
