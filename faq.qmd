@@ -7,12 +7,12 @@ pagetitle: "FAQ — EM 619 MLPA"
 
 ::: {.callout-note collapse="true"}
 ## How are the sessions conducted?
-Sessions are **online over Zoom** and recorded. Live timings (previous offering): **Thu 8:15–9:45 PM**, **Sat 11:00 AM–12:30 PM**, and **Sun 10:00–11:30 AM**. Recordings are posted on the course channel.
+Sessions are **online over Zoom** and recorded. Live timings: **Wednesday 7:45–9:15 PM** and **Saturday 11:00 AM–12:30 PM**. Recordings are posted on the course channel.
 :::
 
 ::: {.callout-note collapse="true"}
 ## Who teaches the course?
-The course is co-taught by **Prof. Nipun Batra** and **Prof. Ashish Tendulkar**, supported by TAs **Abhay Venugopal Pisharodi** and **Veerendra Kumar**. See the [Home page](index.qmd#course-information) for contact details.
+The course is taught by **Prof. Nipun Batra**, supported by TAs **Nayan Solanki** and **Balbir Prasad**. See the [Home page](index.qmd#course-information) for contact details.
 :::
 
 ::: {.callout-note collapse="true"}
@@ -50,7 +50,7 @@ Yes — you are **encouraged** to discuss problems with peers, TAs, and instruct
 
 ::: {.callout-note collapse="true"}
 ## How many assignments are there?
-About **3–5** through the semester, weighted **45%** in total. See [Evaluation](grading.qmd) for the full breakdown.
+**3 assignments**, each worth **15%** (45% total), done in **groups of 2** and followed by a viva. See [Evaluation](grading.qmd) for the full breakdown.
 :::
 
 ---
@@ -59,12 +59,12 @@ About **3–5** through the semester, weighted **45%** in total. See [Evaluation
 
 ::: {.callout-note collapse="true"}
 ## How many quizzes are there, and what's the format?
-About **4–5 announced quizzes** with short conceptual questions (one-line, MCQ, or fill-in-the-blank). They may be taken at the **start, middle, or end** of a lecture, and each carries **equal weight**.
+**3 quizzes**, each worth **15%** (45% total), with short conceptual questions (one-line, MCQ, or fill-in-the-blank). Quizzes are held during the term and in the **Examination-1** and **Examination-2** windows.
 :::
 
 ::: {.callout-note collapse="true"}
-## What about exams?
-Two examinations: **Examination I** (mid-semester, 20%) and **Examination II** (end-semester, 25%).
+## When are the exam windows?
+The academic calendar lists **Examination-1** (10–16 Aug 2026) and **Examination-2** (5–11 Oct 2026); two of the quizzes are held in these windows. See the [key dates](grading.qmd#key-dates-module-3-2026) for the full calendar.
 :::
 
 ---

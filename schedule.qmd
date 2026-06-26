@@ -3,54 +3,51 @@ title: "Schedule"
 pagetitle: "Schedule — EM 619 MLPA"
 ---
 
-::: {.callout-note}
-## Course Materials
-
-* [GitHub repo with lecture source, slides & notebooks](https://github.com/nipunbatra/ml-teaching)
-* [All PDF lecture slides](https://nipunbatra.github.io/ml-teaching/slides.html)
-* [All rendered lecture notebooks](https://nipunbatra.github.io/ml-teaching/notebooks.html)
-
-Slides and notebooks below link to the shared `ml-teaching` materials. Session recordings (Zoom) are posted on the course channel.
-:::
-
 ::: {.callout-warning}
-This plan reproduces the **previous offering (Jan–Apr 2025)**. Dates and ordering are **tentative** for the upcoming term. Sessions are online: **Thu 8:15–9:45 PM**, **Sat 11:00 AM–12:30 PM**, **Sun 10:00–11:30 AM**.
+## Tentative
+This is a **26-lecture plan** (1.5 hours each) for **Module 3, 2026**. Classes run **27 Jun → 3 Oct 2026** on **Wednesday (7:45–9:15 PM)** and **Saturday (11:00 AM–12:30 PM)**, online over Zoom. Dates and topics are **tentative** and may shift with class pace. Slides and recordings will be posted here as the course progresses.
 :::
 
-| # | Date | Topic (Slides) | Notebooks & Resources | By |
-|:--:|:----:|:------|:------|:--:|
-| | | **Module 1 · Foundations** | | |
-| 1 | 16 Jan | [Introduction & Logistics](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml-2025.pdf) | — | Nipun |
-| 2 | 18 Jan | [Conventions & Metrics](https://nipunbatra.github.io/ml-teaching/basics/slides/accuracy-convention.pdf) | [Rule-based vs ML](https://nipunbatra.github.io/ml-teaching/notebooks/rule-based-vs-ml.html), [Confusion Matrix](https://nipunbatra.github.io/ml-teaching/notebooks/confusion-mnist.html), [Dummy baselines](https://nipunbatra.github.io/ml-teaching/notebooks/dummy-baselines.html) | Nipun |
-| | | **Module 2 · Trees & Ensembles** | | |
-| 3 | 25 Jan | [Decision Trees](https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees.pdf) | [Entropy](https://nipunbatra.github.io/ml-teaching/notebooks/entropy.html), [DT (real output)](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-output.html) | Ashish |
-| 4 | 26 Jan | [Random Forests](https://nipunbatra.github.io/ml-teaching/supervised/slides/ensemble.pdf) | [Feature importance](https://nipunbatra.github.io/ml-teaching/notebooks/ensemble-feature-importance.html) | Ashish |
-| 5 | 1 Feb | [Random Forests & Ensemble Learning](https://nipunbatra.github.io/ml-teaching/supervised/slides/ensemble.pdf) | [Feature importance](https://nipunbatra.github.io/ml-teaching/notebooks/ensemble-feature-importance.html), [Meshgrid](https://nipunbatra.github.io/ml-teaching/notebooks/meshgrid.html) | Ashish |
-| 6 | 2 Feb | [Entropy, Information Gain, Hyperparameter Tuning](https://nipunbatra.github.io/ml-teaching/supervised/slides/cross-validation.pdf) | [Entropy](https://nipunbatra.github.io/ml-teaching/notebooks/entropy.html), [Hyperparameter tuning](https://nipunbatra.github.io/ml-teaching/notebooks/hyperparams-experiments.html) | Ashish |
-| | | **Module 3 · Regression & Optimization** | | |
-| 7 | 8 Feb | [Linear Regression](https://nipunbatra.github.io/ml-teaching/supervised/slides/linear-regression.pdf) | — | Nipun |
-| 8 | 9 Feb | [Linear Regression — Basis & Normal Equation](https://nipunbatra.github.io/ml-teaching/supervised/slides/linear-regression.pdf) | [Basis expansion](https://nipunbatra.github.io/ml-teaching/notebooks/basis.html) | Nipun |
-| 9 | 13 Feb | [Geometric Interpretation, Dummy Variables, Multicollinearity](https://nipunbatra.github.io/ml-teaching/supervised/slides/linear-regression.pdf) | [Geometric LR](https://nipunbatra.github.io/ml-teaching/notebooks/geometric-linear-regression.html), [Dummy vars & multicollinearity](https://nipunbatra.github.io/ml-teaching/notebooks/dummy-variables-multi-colinearity.html) | Nipun |
-| 10 | 15 Feb | [Gradient Descent, Optimization, Taylor Series](https://nipunbatra.github.io/ml-teaching/optimization/slides/gradient-descent.pdf) | [Taylor series](https://nipunbatra.github.io/ml-teaching/notebooks/taylor.html), [Contours & GD](https://nipunbatra.github.io/ml-teaching/notebooks/contour.html) | Nipun |
-| | | **Module 4 · Classification** | | |
-| 11 | 20 Feb | [Stochastic & Mini-Batch Gradient Descent](https://nipunbatra.github.io/ml-teaching/optimization/slides/gradient-descent.pdf) | [Gradient descent](https://nipunbatra.github.io/ml-teaching/notebooks/gd.html) | Ashish |
-| 12 | 22 Feb | [Logistic Regression, Ridge, Sparse Solutions](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-1.pdf) · [Ridge](https://nipunbatra.github.io/ml-teaching/supervised/slides/ridge-regression.pdf) · [LASSO](https://nipunbatra.github.io/ml-teaching/supervised/slides/lasso-regression.pdf) | [Why logits](https://nipunbatra.github.io/ml-teaching/notebooks/logits-usage.html), [Logistic in Torch](https://nipunbatra.github.io/ml-teaching/notebooks/logistic-regression-torch.html) | Ashish |
-| 13 | 27 Feb | [Logistic Regression + Neural Networks](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-1.pdf) | [Logistic in Torch](https://nipunbatra.github.io/ml-teaching/notebooks/logistic-regression-torch.html) | Ashish |
-| 14 | 1 Mar | [Logistic Regression + Neural Networks](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-1.pdf) | — | Ashish |
-| 15 | 6 Mar | [Logistic Regression, Learning Parameters, Sigmoid](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-1.pdf) | [Why logits](https://nipunbatra.github.io/ml-teaching/notebooks/logits-usage.html) | Nipun |
-| | | **Module 5 · Neural Networks** | | |
-| 16 | 8 Mar | [Introduction to Neural Networks (MLP)](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/mlp.pdf) | — | Nipun |
-| 17 | 22 Mar | [Neural Networks (contd.)](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/mlp.pdf) | — | Ashish |
-| 18 | 23 Mar | [Neural Networks (contd.)](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/mlp.pdf) | — | Ashish |
-| 19–20 | 30 Mar | [Neural Networks + Autograd](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/autograd.pdf) | [Autodiff](https://nipunbatra.github.io/ml-teaching/notebooks/autodiff.html) | Ashish |
-| 21 | 5 Apr | Implementing Neural Networks with Keras 3.0 | [Keras 3.0](https://keras.io/) | Ashish |
-| 22 | 6 Apr | Implementing Neural Networks with Keras 3.0 | [Keras 3.0](https://keras.io/) | Ashish |
-| | | **Module 6 · CNNs & Transformers** | | |
-| 23 | 12 Apr | [Vanishing Gradients & CNNs](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/CNN.pdf) · [1D CNN](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/1d-cnn.pdf) | [1D CNN](https://nipunbatra.github.io/ml-teaching/notebooks/1d-cnn.html), [Edge detection](https://nipunbatra.github.io/ml-teaching/notebooks/cnn-edge.html), [LeNet](https://nipunbatra.github.io/ml-teaching/notebooks/cnn.html) | Ashish |
-| 24 | 13 Apr | [Convolutional Neural Networks](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/CNN.pdf) | [LeNet](https://nipunbatra.github.io/ml-teaching/notebooks/cnn.html) | Ashish |
-| 25 | 19 Apr | Transformers | [Next-token prediction](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/next-token.pdf) | Ashish |
-| 26 | 20 Apr | Transformers (contd.) | [Names notebook](https://nipunbatra.github.io/ml-teaching/notebooks/names.html) | Ashish |
-| 27–28 | 22 Apr | Transformers — Applications | — | Nipun |
-| | | **Module 7 · Advanced Topics & Wrap-up** | | |
-| 29 | 24 Apr | AI, Ethics, Bias & Fairness | — | Nipun |
-| 30 | 26 Apr | Transfer Learning | — | Ashish |
+| # | Date | Topic |
+|:--:|:----:|:------|
+| | | **Module 1 · Foundations** |
+| 1 | Sat 27 Jun | Introduction & Logistics; What is Machine Learning? |
+| 2 | Wed 1 Jul | Conventions & Metrics; Classification vs Regression |
+| 3 | Sat 4 Jul | Data Preparation & Preprocessing |
+| | | **Module 2 · Trees & Ensembles** |
+| 4 | Wed 8 Jul | Decision Trees — Entropy & Information Gain |
+| 5 | Sat 11 Jul | Decision Trees — Overfitting & Bias–Variance Trade-off |
+| 6 | Wed 15 Jul | Ensemble Learning — Bagging & Random Forests |
+| 7 | Sat 18 Jul | Random Forests — Feature Importance; Hyperparameter Tuning & Cross-validation |
+| 8 | Wed 22 Jul | Boosting & Stacking — Gradient Boosting Machines |
+| | | **Module 3 · Regression & Optimization** |
+| 9 | Sat 25 Jul | Linear Regression — Model Fitting & Normal Equation |
+| 10 | Wed 29 Jul | Linear Regression — Basis Functions & Geometric Interpretation |
+| 11 | Sat 1 Aug | Linear Regression — Dummy Variables & Multicollinearity |
+| 12 | Wed 5 Aug | Gradient Descent & Optimization (Taylor Series) |
+| 13 | Sat 8 Aug | Stochastic & Mini-Batch Gradient Descent; Time Complexity |
+| | | _**Examination-1** · 10–16 Aug — **Mid-Module Break** · 17–23 Aug — classes resume 24 Aug_ |
+| 14 | Wed 26 Aug | Regularization — Ridge & Lasso Regression |
+| | | **Module 4 · Classification & Evaluation** |
+| 15 | Sat 29 Aug | Logistic Regression — Sigmoid & Cross-Entropy |
+| 16 | Wed 2 Sep | Logistic Regression — Optimization & Regularization |
+| 17 | Sat 5 Sep | Model Evaluation — Precision, Recall, F1, ROC; Cross-validation |
+| 18 | Wed 9 Sep | Support Vector Machines — Margins & Hyperplanes |
+| 19 | Sat 12 Sep | Support Vector Machines — Kernels |
+| | | **Module 5 · Neural Networks & Deep Learning** |
+| 20 | Wed 16 Sep | Neural Networks — MLP, Architecture & Activations |
+| 21 | Sat 19 Sep | Neural Networks — Backpropagation |
+| 22 | Wed 23 Sep | Neural Networks — Implementation with Keras 3.0 |
+| 23 | Sat 26 Sep | Convolutional Neural Networks — I |
+| 24 | Wed 30 Sep | Convolutional Neural Networks — II; Transfer Learning |
+| | | **Module 6 · Unsupervised & Advanced Topics** |
+| 25 | Sat 3 Oct | Unsupervised Learning — Clustering (K-means, Hierarchical) & Dimensionality Reduction (PCA, t-SNE) |
+| 26 | _TBC_ | Transformers; AI Ethics, Bias & Fairness; Course Wrap-up |
+
+::: {.callout-note}
+## Key dates (Module 3, 2026)
+- **Classes commence:** 27 Jun · **Last day of classes:** 3 Oct
+- **Examination-1:** 10–16 Aug · **Mid-Module Break:** 17–23 Aug · **Classes resume:** 24 Aug
+- **Examination-2:** 5–11 Oct · **Make-up Exam:** 13 Oct
+- **Grade submission:** 15 Oct · **Disclosure of grades:** 16 Oct
+:::

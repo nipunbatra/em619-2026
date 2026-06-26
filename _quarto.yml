@@ -24,7 +24,7 @@ website:
         text: Instructor
   page-footer:
     left: "EM 619: Machine Learning for Predictive Analysis | IIT Gandhinagar"
-    center: "© 2026 Nipun Batra & Ashish Tendulkar"
+    center: "© 2026 Nipun Batra"
     right: "Made with [Quarto](https://quarto.org) | [Prof. Nipun Batra](https://nipunbatra.github.io)"
     background: "#fffbeb"
 

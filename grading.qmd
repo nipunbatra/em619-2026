@@ -5,49 +5,51 @@ pagetitle: "Evaluation — EM 619 MLPA"
 
 ::: {.callout-warning}
 ## Tentative
-This grading scheme is **tentative** and may be modified during the semester based on student feedback. Any changes will be discussed in class and adopted by consensus between the instructors and students before implementation.
+This grading scheme is **tentative** and may be modified during the semester based on student feedback. Any changes will be discussed in class and adopted by consensus between the instructor and students before implementation.
 :::
 
 ## Grade Distribution
 
-The final grade is computed from the total score using the following weights:
-
 | Component | Weight |
 |:----------|:------:|
-| **Assignments** (in groups of 2, followed by viva) | **45%** |
-| **Examination I** (Mid-semester) | **20%** |
-| **Examination II** (End-semester) | **25%** |
+| **Assignments** — 3 × 15% (in groups of 2, followed by viva) | **45%** |
+| **Quizzes** — 3 × 15% | **45%** |
 | **Attendance & Class Participation** | **10%** |
 
-## Assignments & Tutorials
+## Assignments
 
 ::: {.callout-note}
-- There will be about **3–5 assignments** through the semester.
-- Questions are based on **applying course concepts** to arrive at solutions; most assignments require **computer programming** in Python.
-- Assignments are done in **groups of 2** and evaluated via a **viva voce**.
-- You are encouraged to discuss problems with peers, TAs, and instructors **before** submission.
+- **3 assignments**, each worth **15%** (45% total).
+- Done in **groups of 2**, and evaluated through a **viva voce** where both members should be able to explain the submitted work.
+- Questions are based on **applying course concepts** to real predictive tasks; most require **programming in Python**.
+- You are encouraged to discuss problems with peers, TAs, and the instructor **before** submission. The final submission must be your group's own work.
 :::
 
 ## Quizzes
 
 ::: {.callout-note}
-- About **4–5 announced quizzes**, taken at the beginning, middle, or end of a lecture.
-- Typically **conceptual questions** requiring short answers — one-line, multiple-choice, or fill-in-the-blank.
+- **3 quizzes**, each worth **15%** (45% total).
+- Typically **conceptual questions** with short answers — one-line, multiple-choice, or fill-in-the-blank.
 - Questions may come from content **already covered** or from material to be **covered in the next few classes**.
-- Each quiz carries **equal weight**, irrespective of its maximum marks.
+- Quizzes are held during the term and in the **Examination-1** and **Examination-2** windows (see key dates below).
 :::
-
-## Examinations
-
-Two examinations are held during the semester:
-
-- **Examination I** — mid-semester (20%)
-- **Examination II** — end-semester (25%)
 
 ## Attendance & Class Participation
 
 ::: {.callout-note}
-Students are expected to **ask questions and participate** in discussions. Those who typically remain passive will be awarded zero participation marks.
-
-Attendance marks are computed from the ratio of **classes attended** to **total lectures**.
+Worth **10%**. Students are expected to **ask questions and participate** in discussions; those who typically remain passive will be awarded zero participation marks. Attendance marks are computed from the ratio of **classes attended** to **total lectures**.
 :::
+
+## Key Dates (Module 3, 2026)
+
+| Event | Dates |
+|:------|:------|
+| Classes commence | 27 Jun 2026 |
+| Examination-1 | 10–16 Aug 2026 |
+| Mid-Module Break | 17–23 Aug 2026 |
+| Classes resume | 24 Aug 2026 |
+| Last day of classes | 3 Oct 2026 |
+| Examination-2 | 5–11 Oct 2026 |
+| Make-up Exam | 13 Oct 2026 |
+| Grade submission deadline | 15 Oct 2026 |
+| Disclosure of grades | 16 Oct 2026 |

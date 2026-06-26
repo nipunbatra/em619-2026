@@ -7,19 +7,18 @@ pagetitle: "EM 619: Machine Learning for Predictive Analysis"
 ::: {.callout-note}
 ## Course Information
 
-**Instructors:**
-
-- [Prof. Nipun Batra](https://nipunbatra.github.io) — [nipun.batra@iitgn.ac.in](mailto:nipun.batra@iitgn.ac.in) · Office AB 13/401C · +91 79 2395 2539
-- Prof. Ashish Tendulkar — [ashishvt@gmail.com](mailto:ashishvt@gmail.com)
+**Instructor:** [Prof. Nipun Batra](https://nipunbatra.github.io) — [nipun.batra@iitgn.ac.in](mailto:nipun.batra@iitgn.ac.in) · Office AB 13/401C · +91 79 2395 2539
 
 **Teaching Assistants:**
 
-- Abhay Venugopal Pisharodi — [24290001@iitgn.ac.in](mailto:24290001@iitgn.ac.in)
-- Veerendra Kumar — [veerendra.kumar@iitgn.ac.in](mailto:veerendra.kumar@iitgn.ac.in)
+- Nayan Solanki — [nayansolanki@iitgn.ac.in](mailto:nayansolanki@iitgn.ac.in)
+- Balbir Prasad — [balbir.prasad@iitgn.ac.in](mailto:balbir.prasad@iitgn.ac.in)
 
 **Mode:** Online — live sessions over Zoom with recordings
 
-**Session timings:** Thu 8:15–9:45 PM · Sat 11:00 AM–12:30 PM · Sun 10:00–11:30 AM
+**Session timings:** Wednesday 7:45–9:15 PM · Saturday 11:00 AM–12:30 PM
+
+**Term:** Module 3, 2026 — classes begin **Saturday, 27 June 2026**
 :::
 
 ::: {.callout-warning}
@@ -35,46 +34,6 @@ This course enables students to comprehend fundamental machine learning concepts
 - **Ensemble methods** — bagging, boosting, and stacking — to enhance predictive performance.
 - Applying these techniques to **real-world predictive tasks** on unseen data.
 - Building **proficiency in Python ML libraries** to implement and fine-tune models.
-
-## What you'll learn
-
-::: {.card-grid}
-::: {.feature-card}
-<span class="icon">📈</span>
-### Supervised Learning
-Linear & logistic regression, decision trees, random forests, and SVMs — model fitting, interpretation, and applications.
-:::
-
-::: {.feature-card}
-<span class="icon">🧩</span>
-### Ensembles
-Bagging, boosting, and stacking — gradient boosting machines, bootstrapping, aggregation, and feature importance.
-:::
-
-::: {.feature-card}
-<span class="icon">🧠</span>
-### Neural Networks
-Feedforward nets, backpropagation, CNNs, and Transformers — implemented hands-on with Keras 3.0.
-:::
-
-::: {.feature-card}
-<span class="icon">🎯</span>
-### Model Evaluation
-Precision, recall, F1, ROC; cross-validation; the bias–variance trade-off; and taming overfitting with regularization.
-:::
-
-::: {.feature-card}
-<span class="icon">🔍</span>
-### Unsupervised Learning
-Clustering (K-means, hierarchical, density-based) and dimensionality reduction (PCA, t-SNE) for segmentation & visualization.
-:::
-
-::: {.feature-card}
-<span class="icon">⚖️</span>
-### ML in Practice
-End-to-end projects across healthcare, finance, and retail — with a serious look at bias, fairness, and transparency.
-:::
-:::
 
 ## Syllabus
 
