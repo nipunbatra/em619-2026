@@ -11,9 +11,9 @@ This is a **26-lecture plan** (1.5 hours each) for **Module 3, 2026**. Classes r
 | # | Date | Topic |
 |:--:|:----:|:------|
 | | | **Module 1 · Foundations** |
-| 1 | Sat 27 Jun | Introduction & Logistics; What is Machine Learning? |
-| 2 | Wed 1 Jul | Conventions & Metrics; Classification vs Regression |
-| 3 | Sat 4 Jul | Data Preparation & Preprocessing |
+| 1 | Sat 27 Jun | [Introduction & Logistics; What is Machine Learning?](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml-2025.pdf) |
+| 2 | Wed 1 Jul | [Conventions & Metrics; Classification vs Regression](https://nipunbatra.github.io/ml-teaching/basics/slides/accuracy-convention-handout.pdf) [Notebook](https://colab.research.google.com/drive/1mRY0phhsl9vrCLIAMS15WgbN6ajjVMi7?usp=sharing){.badge .bg-primary} |
+| 3 | Sat 4 Jul | [Data Preparation & Preprocessing](https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees-handout.pdf) |
 | | | **Module 2 · Trees & Ensembles** |
 | 4 | Wed 8 Jul | Decision Trees — Entropy & Information Gain |
 | 5 | Sat 11 Jul | Decision Trees — Overfitting & Bias–Variance Trade-off |
