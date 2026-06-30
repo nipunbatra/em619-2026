@@ -499,6 +499,21 @@ h2 + p, h3 + p {
   }
 }
 
+/* Badge link styling - remove underline on hover */
+.badge {
+  a {
+    text-decoration: none !important;
+
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     padding: 0;
