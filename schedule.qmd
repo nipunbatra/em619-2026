@@ -12,10 +12,10 @@ This is a **26-lecture plan** (1.5 hours each) for **Module 3, 2026**. Classes r
 |:--:|:----:|:------|
 | | | **Module 1 · Foundations** |
 | 1 | Sat 27 Jun | [Introduction & Logistics; What is Machine Learning?](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml-2025.pdf) [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQCXQZjn8Y9zRK7AkZaANHbyAVB27WuS9eg7VaH2OczFq88?e=EY6nrT){.badge .bg-primary} |
-| 2 | Sat 27 Jun | [Conventions & Metrics; Classification vs Regression](https://nipunbatra.github.io/ml-teaching/basics/slides/accuracy-convention-handout.pdf)  [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBg39VCVNGjQIpkC6CgfHLFAUItBdxYP2cscJC2kznY5oE?e=dvngue){.badge .bg-primary} |
-| 3 | Mon 29 Jun | [Data Preparation & Decision Trees 1](https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees-handout.pdf) [Notebook](https://colab.research.google.com/drive/1mRY0phhsl9vrCLIAMS15WgbN6ajjVMi7?usp=sharing){.badge .bg-primary} |
+| 2 | Sat 27 Jun | [Conventions & Metrics; Classification vs Regression](https://nipunbatra.github.io/ml-teaching/basics/slides/accuracy-convention-handout.pdf)  [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQCXQZjn8Y9zRK7AkZaANHbyAVB27WuS9eg7VaH2OczFq88?e=EY6nrT){.badge .bg-primary} |
+| 3 | Mon 29 Jun | [Data Preparation & Decision Trees 1](https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees-handout.pdf) [Notebook](https://colab.research.google.com/drive/1mRY0phhsl9vrCLIAMS15WgbN6ajjVMi7?usp=sharing){.badge .bg-primary}  [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBg39VCVNGjQIpkC6CgfHLFAUItBdxYP2cscJC2kznY5oE?e=dvngue){.badge .bg-primary} |
 | | | **Module 2 · Trees & Ensembles** |
-| 4 | Wed 1 Jul | [Decision Trees 2](https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees.pdf)  [Notebook](https://colab.research.google.com/drive/11VXCg1QGtEUw3JQj2kEnKL511ZudpwJN?usp=sharing){.badge .bg-primary} |
+| 4 | Wed 1 Jul | [Decision Trees 2](https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees.pdf)  [Notebook](https://colab.research.google.com/drive/11VXCg1QGtEUw3JQj2kEnKL511ZudpwJN?usp=sharing){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQAxJmBMwmIZTb3CbWPhlP3gAU1c56CtcWep6-kbFOeVQl0?e=aTe56D){.badge .bg-primary} |
 | 5 | Sat 11 Jul | Decision Trees — Overfitting & Bias–Variance Trade-off |
 | 6 | Wed 15 Jul | Ensemble Learning — Bagging & Random Forests |
 | 7 | Sat 18 Jul | Random Forests — Feature Importance; Hyperparameter Tuning & Cross-validation |
