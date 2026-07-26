@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - schedule.qmd
+    - grading.qmd
+    - faq.qmd
 
 website:
   title: "EM 619: Machine Learning for Predictive Analysis"
