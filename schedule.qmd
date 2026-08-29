@@ -27,9 +27,8 @@ This is a **26-lecture plan** (1.5 hours each) for **Module 3, 2026**. Classes r
 | 12 | Wed 29 Jul | [Linear Regression 4 - Multicollinearity](https://nipunbatra.github.io/ml-teaching/supervised/slides/linear-regression.pdf) [Notebook](https://colab.research.google.com/drive/1tSJBCtOlj-XfMuw9UZLJKbd30JcOy5vb?usp=sharing){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBWmzH9RBagSZwXLf7ChZu4AUVDEkqAfvWMSrmVwMFzAAk?e=x47YbH){.badge .bg-primary} |
 | 13 | Sat 8 Aug | [Ridge Regression](https://nipunbatra.github.io/ml-teaching/supervised/slides/ridge-regression.pdf) [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQDUkHXrGDZlQabxNbe-DRoHAepb7i5-D-nIoFfQ6yP_s0g?e=gpFqtL){.badge .bg-primary} |
 | | | _**Examination-1** · 10–16 Aug — **Mid-Module Break** · 17–23 Aug — classes resume 24 Aug_ |
-| 14 | Wed 26 Aug | Regularization — Ridge & Lasso Regression |
 | | | **Module 4 · Classification & Evaluation** |
-| 15 | Sat 29 Aug | Logistic Regression — Sigmoid & Cross-Entropy |
+| 14 | Sat 29 Aug | [Logistic Regression — Sigmoid & Cross-Entropy](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression-handout.pdf) [Notebook](https://colab.research.google.com/drive/1yQc1EOG1WUzZhrJGwyA9M10RMSprz_qB?usp=sharing){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQD6O0SuD_pYTJRyIPK8xDRiAXZ-2bqKDVuREb85KZCb0ac?e=MHfuk8){.badge .bg-primary} |
 | 16 | Wed 2 Sep | Logistic Regression — Optimization & Regularization |
 | 17 | Sat 5 Sep | Model Evaluation — Precision, Recall, F1, ROC; Cross-validation |
 | 18 | Wed 9 Sep | Support Vector Machines — Margins & Hyperplanes |
