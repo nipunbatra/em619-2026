@@ -28,9 +28,9 @@ This is a **26-lecture plan** (1.5 hours each) for **Module 3, 2026**. Classes r
 | 13 | Sat 8 Aug | [Ridge Regression](https://nipunbatra.github.io/ml-teaching/supervised/slides/ridge-regression.pdf) [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQDUkHXrGDZlQabxNbe-DRoHAepb7i5-D-nIoFfQ6yP_s0g?e=gpFqtL){.badge .bg-primary} |
 | | | _**Examination-1** · 10–16 Aug — **Mid-Module Break** · 17–23 Aug — classes resume 24 Aug_ |
 | | | **Module 4 · Classification & Evaluation** |
-| 14 | Sat 29 Aug | [Logistic Regression — Sigmoid & Cross-Entropy](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression-handout.pdf) [Notebook](https://colab.research.google.com/drive/1yQc1EOG1WUzZhrJGwyA9M10RMSprz_qB?usp=sharing){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQD6O0SuD_pYTJRyIPK8xDRiAXZ-2bqKDVuREb85KZCb0ac?e=MHfuk8){.badge .bg-primary} |
-| 16 | Wed 2 Sep | Logistic Regression — Optimization & Regularization |
-| 17 | Sat 5 Sep | Model Evaluation — Precision, Recall, F1, ROC; Cross-validation |
+| 14 | Sat 29 Aug | [Logistic Regression - I](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression.pdf) [Notebook](https://colab.research.google.com/drive/1yQc1EOG1WUzZhrJGwyA9M10RMSprz_qB?usp=sharing){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQD6O0SuD_pYTJRyIPK8xDRiAXZ-2bqKDVuREb85KZCb0ac?e=MHfuk8){.badge .bg-primary} |
+| 16 | Wed 2 Sep | [Logistic Regression - II](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression.pdf) [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQDmL6rxXkf3Rq-s9ONxF9F4AbAwHIFHEK3AfABpGg1FpIw?e=p7Ou3r){.badge .bg-primary} |
+| 17 | Sat 5 Sep | [Logistic Regression - III](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression.pdf) [Notebook](https://colab.research.google.com/drive/18jm_jx9iwsjhgC6fp7G28eJCQjmMdatu?usp=sharing){.badge .bg-primary} [Note](https://docs.google.com/spreadsheets/d/1cMtW2MV8zoIFQwd6dOaGQ82p0J3DwkHt2jyPMXm5eGA/edit?usp=sharing){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBP1vUdsmgbQrS6IdYWqa5NAUrXMW5r26qSox9HJJhTrI4?e=glL0QG){.badge .bg-primary} |
 | 18 | Wed 9 Sep | Support Vector Machines — Margins & Hyperplanes |
 | 19 | Sat 12 Sep | Support Vector Machines — Kernels |
 | | | **Module 5 · Neural Networks & Deep Learning** |
