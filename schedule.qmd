@@ -31,12 +31,11 @@ This is a **26-lecture plan** (1.5 hours each) for **Module 3, 2026**. Classes r
 | 14 | Sat 29 Aug | [Logistic Regression - I](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression.pdf) [Notebook](https://colab.research.google.com/drive/1yQc1EOG1WUzZhrJGwyA9M10RMSprz_qB?usp=sharing){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQD6O0SuD_pYTJRyIPK8xDRiAXZ-2bqKDVuREb85KZCb0ac?e=MHfuk8){.badge .bg-primary} |
 | 15 | Wed 2 Sep | [Logistic Regression - II](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression.pdf) [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQDmL6rxXkf3Rq-s9ONxF9F4AbAwHIFHEK3AfABpGg1FpIw?e=p7Ou3r){.badge .bg-primary} |
 | 16 | Sat 5 Sep | [Logistic Regression - III](https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression.pdf) [Notebook](https://colab.research.google.com/drive/18jm_jx9iwsjhgC6fp7G28eJCQjmMdatu?usp=sharing){.badge .bg-primary} [Note](https://docs.google.com/spreadsheets/d/1cMtW2MV8zoIFQwd6dOaGQ82p0J3DwkHt2jyPMXm5eGA/edit?usp=sharing){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBP1vUdsmgbQrS6IdYWqa5NAUrXMW5r26qSox9HJJhTrI4?e=glL0QG){.badge .bg-primary} |
-| 18 | Wed 9 Sep | Support Vector Machines — Margins & Hyperplanes |
-| 19 | Sat 12 Sep | Support Vector Machines — Kernels |
+| 18 | Wed 9 Sep | [Tutorial session - Assignment 2](https://github.com/nipunbatra/em619-2026/blob/main/assignments/a2/EM619_Assignment2.ipynb) [Notebook solution](https://github.com/nipunbatra/em619-2026/blob/main/assignments/a2/EM619_Assignment2_SOLUTION.ipynb){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQDOSo6cDyBVQqrmZe9zKFHUAR6z012zG6RqiotshRRg__0?e=FAKqbr){.badge .bg-primary} |
 | | | **Module 5 · Neural Networks & Deep Learning** |
-| 20 | Wed 16 Sep | Neural Networks — MLP, Architecture & Activations |
-| 21 | Sat 19 Sep | Neural Networks — Backpropagation |
-| 22 | Wed 23 Sep | Neural Networks — Implementation with Keras 3.0 |
+| 20 | Sat 12 Sep | [Neural Networks — Tensors and autograd]() [Notebook](https://github.com/nipunbatra/pytorch-basics/blob/main/notebooks/01-tensors-and-autograd.ipynb){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQC8MncEmnYeR7dRYldSlaaXAcBDGlv8b8FS4EOiWa6NEJ0?e=i7IuP2){.badge .bg-primary} |
+| 21 | Wed 16 Sep | [Neural Networks — Regression]() [Notebook](https://github.com/nipunbatra/pytorch-basics/blob/main/notebooks/02-linear-regression.ipynb){.badge .bg-primary} [Recording](https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQC6OSP9A2hdSq_-_WwSZCMjAXKSEwCOLuWbRy03x96YAKk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PvqZUN){.badge .bg-primary} |
+| 22 | Sat 19 Sep | [Neural Networks](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/mlp.pdf) [Recording](){.badge .bg-primary} |
 | 23 | Sat 26 Sep | Convolutional Neural Networks — I |
 | 24 | Wed 30 Sep | Convolutional Neural Networks — II; Transfer Learning |
 | | | **Module 6 · Unsupervised & Advanced Topics** |
