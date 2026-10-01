@@ -13,7 +13,7 @@
   },
   {
     "id": "route",
-    "title": "Today\u2019s 55-minute route",
+    "title": "Agenda",
     "idea": "Worked examples, short predictions and a final diagnosis exercise.",
     "question": "Which part of the course felt like a new subject but reused an old idea?",
     "answer": "Next-character generation reused multiclass classification; autograd reused the chain rule.",

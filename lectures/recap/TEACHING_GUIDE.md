@@ -41,7 +41,7 @@ Opening cue: ask students to name one model and one mistake to avoid. This is a 
 
 [Original class material](https://nipunbatra.github.io/ml-teaching/basics/slides/accuracy-convention-handout.pdf)
 
-### 02 · Today’s 55-minute route (01:00, 60 s)
+### 02 · Agenda (01:00, 60 s)
 
 Worked examples, short predictions and a final diagnosis exercise.
 

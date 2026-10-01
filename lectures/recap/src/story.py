@@ -18,7 +18,7 @@ add('title','Machine learning: a course recap',d.flow(['Data','Model','Loss','Le
 'What connects a decision tree, a fitted line and a name generator?',
 'All learn a rule from examples, make predictions and need evaluation on data not used to fit or select them.',
 'Opening cue: ask students to name one model and one mistake to avoid. This is a recap of the dated EM619 class record, including the instructor’s corrections for 23, 26 and 30 September. The architecture of transformers is not assumed.',kind='title')
-add('route','Today’s 55-minute route',d.timeline(),'Worked examples, short predictions and a final diagnosis exercise.',
+add('route','Agenda',d.agenda(),'Worked examples, short predictions and a final diagnosis exercise.',
 'Which part of the course felt like a new subject but reused an old idea?',
 'Next-character generation reused multiclass classification; autograd reused the chain rule.',
 'The 55 minutes include questions and demonstrations, but not playback of the linked revision videos. For 50 minutes, shorten pauses on the geometry, ensembles and parameter-count examples. For 60 minutes, add five minutes to the exit discussion.')

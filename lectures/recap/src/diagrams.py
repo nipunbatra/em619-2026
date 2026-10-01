@@ -148,7 +148,7 @@ def bars(labels,values):
  for i,(label,v) in enumerate(zip(labels,values)):
   y=50+i*85;s+=txt(110,y+30,label,29,anchor='end')+f'<rect x="145" y="{y}" width="{v*750}" height="45" rx="3" fill="{B}"/>'+txt(170+v*750,y+32,f'{v:.3f}',27)
  return svg(s+txt(560,385,'Illustrative probabilities; not predictions from a trained model.',23,M,'middle'))
-def timeline():return rows(['Minutes','Revision focus'],[['0–7','Data, tasks and evaluation'],['7–16','Trees, model selection and ensembles'],['16–28','Regression, optimization and ridge'],['28–39','Logistic regression and MLPs'],['39–51','Next-token prediction and autograd'],['51–55','Synthesis and exit questions']],[230,830])
+def agenda():return rows(['Topics'],[['Data, tasks and evaluation'],['Trees, model selection and ensembles'],['Regression, optimization and ridge'],['Logistic regression and MLPs'],['Next-token prediction and autograd'],['Synthesis and exit questions']],[1060])
 
 def basis():
  s=axes(xlabel='x',ylabel='ŷ')
