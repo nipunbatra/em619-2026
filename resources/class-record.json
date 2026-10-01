@@ -1,0 +1,1243 @@
+[
+  {
+    "number": 1,
+    "date": "Sat 27 Jun",
+    "title": "Introduction & Logistics; What is Machine Learning?",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml-2025.pdf"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQCXQZjn8Y9zRK7AkZaANHbyAVB27WuS9eg7VaH2OczFq88?e=EY6nrT"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML01",
+        "title": "Conventions and metrics",
+        "url": "cheatsheets/ML01-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-I1",
+        "title": "How does a computer learn to sort good tomatoes from bad?",
+        "url": "https://youtu.be/rzf7sl7QdUQ"
+      },
+      {
+        "id": "ML-B2",
+        "title": "Spam, cat or dog, house prices, tumors: which is a regression problem?",
+        "url": "https://youtu.be/VFo489GxXFw"
+      }
+    ],
+    "videos": [
+      {
+        "id": "UoccmaLwZoI",
+        "title": "What Is Machine Learning?",
+        "url": "https://youtu.be/UoccmaLwZoI",
+        "duration": "PT1M20S"
+      },
+      {
+        "id": "2xsVZ6itMfc",
+        "title": "Training vs Testing Data",
+        "url": "https://youtu.be/2xsVZ6itMfc",
+        "duration": "PT1M20S"
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "date": "Sat 27 Jun",
+    "title": "Conventions & Metrics; Classification vs Regression",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/basics/slides/accuracy-convention-handout.pdf"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQCXQZjn8Y9zRK7AkZaANHbyAVB27WuS9eg7VaH2OczFq88?e=EY6nrT"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML01",
+        "title": "Conventions and metrics",
+        "url": "cheatsheets/ML01-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-A1",
+        "title": "A test is 99% accurate. Is it a good test?",
+        "url": "https://youtu.be/IMrH-hsz7Kg"
+      },
+      {
+        "id": "ML-E9",
+        "title": "A model's two errors are +5 and -5. Its mean error is 0. Is it perfect?",
+        "url": "https://youtu.be/pfUmW79n9RQ"
+      }
+    ],
+    "videos": [
+      {
+        "id": "M2QnW6HQPEk",
+        "title": "Classification vs Regression",
+        "url": "https://youtu.be/M2QnW6HQPEk",
+        "duration": "PT1M7S"
+      },
+      {
+        "id": "F7bf10Gg188",
+        "title": "Precision vs Recall",
+        "url": "https://youtu.be/F7bf10Gg188",
+        "duration": "PT1M29S"
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "date": "Mon 29 Jun",
+    "title": "Data Preparation & Decision Trees 1",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees-handout.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://colab.research.google.com/drive/1mRY0phhsl9vrCLIAMS15WgbN6ajjVMi7?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBg39VCVNGjQIpkC6CgfHLFAUItBdxYP2cscJC2kznY5oE?e=dvngue"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML02",
+        "title": "Decision trees I: entropy and information gain",
+        "url": "cheatsheets/ML02-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-T1",
+        "title": "What does entropy measure in a decision tree?",
+        "url": "https://youtu.be/MnQARhioSxY"
+      },
+      {
+        "id": "ML-T2",
+        "title": "Tennis data, 14 days. Why does 'Outlook' give the biggest information gain?",
+        "url": "https://youtu.be/feRG7aqYPGU"
+      }
+    ],
+    "videos": [
+      {
+        "id": "EwBcmWVyNB4",
+        "title": "What Is a Decision Tree?",
+        "url": "https://youtu.be/EwBcmWVyNB4",
+        "duration": "PT3M1S"
+      },
+      {
+        "id": "QM85EV_VG7k",
+        "title": "Entropy Explained",
+        "url": "https://youtu.be/QM85EV_VG7k",
+        "duration": "PT3M35S"
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "date": "Wed 1 Jul",
+    "title": "Decision Trees 2",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://colab.research.google.com/drive/11VXCg1QGtEUw3JQj2kEnKL511ZudpwJN?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBdFALN7mLzQ5I2O7viXfwaAXQz6NRPWTkghPzWv95tRZI?e=MnWYdQ"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML02",
+        "title": "Decision trees I: entropy and information gain",
+        "url": "cheatsheets/ML02-cheatsheet.pdf"
+      },
+      {
+        "id": "ML03",
+        "title": "Decision trees II: real inputs, real outputs, depth",
+        "url": "cheatsheets/ML03-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-T3",
+        "title": "Temperatures 40, 48, 60, 72, 80, 90. Where should a decision tree try to split?",
+        "url": "https://youtu.be/ulg16au4iP8"
+      },
+      {
+        "id": "ML-T4",
+        "title": "A regression tree leaf holds 30, 32 and 40 kWh. What does it predict?",
+        "url": "https://youtu.be/heS5e9BCDFM"
+      }
+    ],
+    "videos": [
+      {
+        "id": "tGcNOSgQFkI",
+        "title": "Information Gain Explained",
+        "url": "https://youtu.be/tGcNOSgQFkI",
+        "duration": "PT4M14S"
+      },
+      {
+        "id": "QpaqCXAl2bA",
+        "title": "Regression Trees?",
+        "url": "https://youtu.be/QpaqCXAl2bA",
+        "duration": "PT3M28S"
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "date": "Sat 4 Jul",
+    "title": "Decision Trees 3",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees.pdf"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQAXKzG-LJZjR7rV1ut8wjkcAb1WKXBLvQIBToJZ9jvx778?e=jIEbLo"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML03",
+        "title": "Decision trees II: real inputs, real outputs, depth",
+        "url": "cheatsheets/ML03-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-T6",
+        "title": "Does a deeper decision tree always do better on new data?",
+        "url": "https://youtu.be/HMLXrTRsYF4"
+      },
+      {
+        "id": "ML-T7",
+        "title": "A fully grown decision tree is cut back to fewer leaves. Can it do better on new data?",
+        "url": "https://youtu.be/fiR-i-IekcI"
+      }
+    ],
+    "videos": [
+      {
+        "id": "pZ1cJ26Ucds",
+        "title": "Decision Trees in Code?",
+        "url": "https://youtu.be/pZ1cJ26Ucds",
+        "duration": "PT2M40S"
+      },
+      {
+        "id": "e0scEvjwckg",
+        "title": "Overfitting and Pruning?",
+        "url": "https://youtu.be/e0scEvjwckg",
+        "duration": "PT3M44S"
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "date": "Wed 8 Jul",
+    "title": "Bias Variance Tradeoff and Cross Validation",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/bias-variance.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://colab.research.google.com/drive/1c8Eg6dVapDwCEYvzDk7HLKxjSs0ZB4qN?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBQp4stgo-tR7pyLOI8yPAIARGHLIY7hNCFpjl6y2HCh2o?e=JsBwGw"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML04",
+        "title": "Bias and variance",
+        "url": "cheatsheets/ML04-cheatsheet.pdf"
+      },
+      {
+        "id": "ML05",
+        "title": "Cross-validation and hyperparameters",
+        "url": "cheatsheets/ML05-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-F2",
+        "title": "Refit a line and a wiggly curve on 5 new samples. Whose predictions jump more?",
+        "url": "https://youtu.be/-RqnwZDuuLI"
+      },
+      {
+        "id": "ML-V2",
+        "title": "You scale with the mean of all the data, then cross-validate. Is the test score honest?",
+        "url": "https://youtu.be/FnYRy5v1D_o"
+      }
+    ],
+    "videos": [
+      {
+        "id": "5h_t0EhvULU",
+        "title": "The Bias Variance Tradeoff?",
+        "url": "https://youtu.be/5h_t0EhvULU",
+        "duration": "PT3M10S"
+      },
+      {
+        "id": "J1iYdtKrtA4",
+        "title": "Cross-Validation?",
+        "url": "https://youtu.be/J1iYdtKrtA4",
+        "duration": "PT2M39S"
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "date": "Sat 11 Jul",
+    "title": "Cross-validation, ensembles and random forests",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Cross-validation slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/cross-validation.pdf"
+      },
+      {
+        "type": "slides",
+        "title": "Ensemble slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/ensemble.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://colab.research.google.com/drive/1c8Eg6dVapDwCEYvzDk7HLKxjSs0ZB4qN?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBKWIymKMuPRYtIKaF7Q86HAc4VoY45_JSKmKkZ9AY2nzo?e=yD43V6"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML05",
+        "title": "Cross-validation and hyperparameters",
+        "url": "cheatsheets/ML05-cheatsheet.pdf"
+      },
+      {
+        "id": "ML06",
+        "title": "Ensembles: bagging, random forests, boosting",
+        "url": "cheatsheets/ML06-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-EN1",
+        "title": "Draw 100 times from 100 items, putting each back. How many different items?",
+        "url": "https://youtu.be/xbQwEKc8SQk"
+      },
+      {
+        "id": "ML-EN5",
+        "title": "A random forest split sees 2 of 4 measurements. How often is the best one hidden?",
+        "url": "https://youtu.be/ckIMtVWY3c0"
+      }
+    ],
+    "videos": [
+      {
+        "id": "rGGojrJfFlI",
+        "title": "Bagging - Bootstrap Aggregating?",
+        "url": "https://youtu.be/rGGojrJfFlI",
+        "duration": "PT3M47S"
+      },
+      {
+        "id": "8TrmYz_YAFk",
+        "title": "Random Forests?",
+        "url": "https://youtu.be/8TrmYz_YAFk",
+        "duration": "PT4M"
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "date": "Wed 15 Jul",
+    "title": "Linear Regression 1 - Model Fitting & Normal Equation",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/linear-regression.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook 1",
+        "url": "https://colab.research.google.com/github/nipunbatra/ml-teaching/blob/master/notebooks/basis.ipynb"
+      },
+      {
+        "type": "code",
+        "title": "Notebook 2",
+        "url": "https://colab.research.google.com/drive/17UW9bL6rp59kLnLh6xK9qFCnJYBQlfIP?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQCLh8Ml8P1vSZ8yaXGmLFZmAaF_ZNE8BFZsKtBndZf3HdA?e=SsAPW0"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML08",
+        "title": "Linear regression I: normal equation and geometry",
+        "url": "cheatsheets/ML08-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-R1",
+        "title": "Line 1 passes through 3 of 4 points, line 2 through none. Which has less squared error?",
+        "url": "https://youtu.be/g7E2T9TrUps"
+      }
+    ],
+    "videos": [
+      {
+        "id": "tpGoOG2kAu4",
+        "title": "What is Linear Regression?",
+        "url": "https://youtu.be/tpGoOG2kAu4",
+        "duration": "PT2M34S"
+      },
+      {
+        "id": "iJ1Gvi1IqUk",
+        "title": "Deriving the Normal Equation",
+        "url": "https://youtu.be/iJ1Gvi1IqUk",
+        "duration": "PT3M6S"
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "date": "Sat 18 Jul",
+    "title": "Linear Regression 2 - Code Demo",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/linear-regression.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://colab.research.google.com/drive/1tSJBCtOlj-XfMuw9UZLJKbd30JcOy5vb?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQAmRy1Ug_JPRLehOx5K2GNUAVvPQhdxfko_8mlWH1bcrrA?e=hiCarh"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML08",
+        "title": "Linear regression I: normal equation and geometry",
+        "url": "cheatsheets/ML08-cheatsheet.pdf"
+      },
+      {
+        "id": "ML09",
+        "title": "Linear regression II: basis functions, collinearity, dummies",
+        "url": "cheatsheets/ML09-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-R3",
+        "title": "Linear regression fits straight lines. Can it fit a curve?",
+        "url": "https://youtu.be/Iw7rIs0vkX0"
+      }
+    ],
+    "videos": [
+      {
+        "id": "htrD7kvmYAo",
+        "title": "Worked Example",
+        "url": "https://youtu.be/htrD7kvmYAo",
+        "duration": "PT2M49S"
+      },
+      {
+        "id": "uz5UT7LOZC0",
+        "title": "Basis Expansion",
+        "url": "https://youtu.be/uz5UT7LOZC0",
+        "duration": "PT2M37S"
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "date": "Wed 22 Jul",
+    "title": "Linear Regression 3 - Geometric Interpretation",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/linear-regression.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook 1",
+        "url": "https://colab.research.google.com/drive/14uRDs2cYCctO_vAPv4zr8GKgXiWsAMQx?usp=sharing"
+      },
+      {
+        "type": "code",
+        "title": "Notebook 2",
+        "url": "https://colab.research.google.com/drive/1Sdbn_3vURkm7wxCbsOglroZjoxcLReO4?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQCkm47lBnqNS40wVbVwxTsqAU0Bp2fT6gX8ncODAw4JSBc?e=Oruhxe"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML08",
+        "title": "Linear regression I: normal equation and geometry",
+        "url": "cheatsheets/ML08-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-R7",
+        "title": "Four data sets share one best-fit line and the same average miss. Do they look alike?",
+        "url": "https://youtu.be/IJvYQElsb2A"
+      }
+    ],
+    "videos": [
+      {
+        "id": "4NennZUu0Qg",
+        "title": "Geometric Interpretation",
+        "url": "https://youtu.be/4NennZUu0Qg",
+        "duration": "PT3M5S"
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "date": "Sat 25 Jul",
+    "title": "Gradient Descent & Optimization (Taylor Series)",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/optimization/slides/gradient-descent.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://colab.research.google.com/drive/1ZelZNraMmvaeOtBj7VhCu0QrLK3ajZ7T?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQCdUoQAEIXKRZ7maQh33ccUAZBvzvwxPOZijUDg8aKmDXU?e=qXSn9E"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML10",
+        "title": "Gradient descent and SGD",
+        "url": "cheatsheets/ML10-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-O1",
+        "title": "f(x) = x\u00b2, start at x = 4, step size 0.1. Where is x after one gradient descent step?",
+        "url": "https://youtu.be/Ik9v6wL8fHg"
+      },
+      {
+        "id": "ML-O2",
+        "title": "f(x) = x\u00b2, start at 4, step size 1.1. Does gradient descent reach the bottom?",
+        "url": "https://youtu.be/58dT6LqH2tQ"
+      }
+    ],
+    "videos": [
+      {
+        "id": "8-f5bE3uBsE",
+        "title": "Why gradient descent zigzags: step sizes",
+        "url": "https://youtu.be/8-f5bE3uBsE",
+        "duration": "PT2M52S"
+      },
+      {
+        "id": "iByVRBf1nAA",
+        "title": "SGD vs minibatch: how much data per step?",
+        "url": "https://youtu.be/iByVRBf1nAA",
+        "duration": "PT3M"
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "date": "Wed 29 Jul",
+    "title": "Linear Regression 4 - Multicollinearity",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/linear-regression.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://colab.research.google.com/drive/1tSJBCtOlj-XfMuw9UZLJKbd30JcOy5vb?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBWmzH9RBagSZwXLf7ChZu4AUVDEkqAfvWMSrmVwMFzAAk?e=x47YbH"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML09",
+        "title": "Linear regression II: basis functions, collinearity, dummies",
+        "url": "cheatsheets/ML09-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-I4",
+        "title": "Colour is red, green or blue. Code it as 1, 2, 3 for a linear model?",
+        "url": "https://youtu.be/s-kd-Xa9WQM"
+      }
+    ],
+    "videos": [
+      {
+        "id": "YGxEGB4FB_U",
+        "title": "Multicollinearity",
+        "url": "https://youtu.be/YGxEGB4FB_U",
+        "duration": "PT2M38S"
+      },
+      {
+        "id": "hYnOlmcGDPY",
+        "title": "Dummy Variables and Assumptions",
+        "url": "https://youtu.be/hYnOlmcGDPY",
+        "duration": "PT2M51S"
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "date": "Sat 8 Aug",
+    "title": "Ridge Regression",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/ridge-regression.pdf"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQDUkHXrGDZlQabxNbe-DRoHAepb7i5-D-nIoFfQ6yP_s0g?e=gpFqtL"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML12",
+        "title": "Ridge regression",
+        "url": "cheatsheets/ML12-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-R4",
+        "title": "Make a curve fit its training points worse on purpose. Can it do better on new points?",
+        "url": "https://youtu.be/JQnH52vLcfo"
+      },
+      {
+        "id": "ML-R8",
+        "title": "Ridge with penalty 100 is fit to (1, 101) and (2, 102). What does it predict at x = 1?",
+        "url": "https://youtu.be/470y2_2ngmM"
+      }
+    ],
+    "videos": [
+      {
+        "id": "Jm-BtVBNwCY",
+        "title": "Ridge Regression: The Idea",
+        "url": "https://youtu.be/Jm-BtVBNwCY",
+        "duration": "PT2M10S"
+      },
+      {
+        "id": "_h_tTtw5y84",
+        "title": "Cross-Validation for Lambda",
+        "url": "https://youtu.be/_h_tTtw5y84",
+        "duration": "PT1M57S"
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "date": "Sat 29 Aug",
+    "title": "Logistic Regression - I",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://colab.research.google.com/drive/1yQc1EOG1WUzZhrJGwyA9M10RMSprz_qB?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQD6O0SuD_pYTJRyIPK8xDRiAXZ-2bqKDVuREb85KZCb0ac?e=MHfuk8"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML14",
+        "title": "Logistic regression",
+        "url": "cheatsheets/ML14-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-C1",
+        "title": "A model's score is 0. What probability does the sigmoid turn it into?",
+        "url": "https://youtu.be/ij2uXQCDL8U"
+      },
+      {
+        "id": "ML-C2",
+        "title": "Logistic regression with two inputs: what shape is the border between yes and no?",
+        "url": "https://youtu.be/ky4PnMdM1pY"
+      }
+    ],
+    "videos": [
+      {
+        "id": "LYKMhBz-zGA",
+        "title": "The Sigmoid Function",
+        "url": "https://youtu.be/LYKMhBz-zGA",
+        "duration": "PT3M33S"
+      },
+      {
+        "id": "Xq2z59Rgbis",
+        "title": "The Logistic Regression Model",
+        "url": "https://youtu.be/Xq2z59Rgbis",
+        "duration": "PT3M39S"
+      }
+    ]
+  },
+  {
+    "number": 15,
+    "date": "Wed 2 Sep",
+    "title": "Logistic Regression - II",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression.pdf"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQDmL6rxXkf3Rq-s9ONxF9F4AbAwHIFHEK3AfABpGg1FpIw?e=p7Ou3r"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML14",
+        "title": "Logistic regression",
+        "url": "cheatsheets/ML14-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-C3",
+        "title": "The true class gets probability 0.01. Which loss punishes it more?",
+        "url": "https://youtu.be/w5W02o_x-Ww"
+      }
+    ],
+    "videos": [
+      {
+        "id": "q162V6czv1M",
+        "title": "Why Not Squared Error?",
+        "url": "https://youtu.be/q162V6czv1M",
+        "duration": "PT3M16S"
+      },
+      {
+        "id": "0quE3gru6ME",
+        "title": "Cross-Entropy Loss via MLE",
+        "url": "https://youtu.be/0quE3gru6ME",
+        "duration": "PT3M50S"
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "date": "Sat 5 Sep",
+    "title": "Logistic Regression - III",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/supervised/slides/logistic-regression.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://colab.research.google.com/drive/18jm_jx9iwsjhgC6fp7G28eJCQjmMdatu?usp=sharing"
+      },
+      {
+        "type": "notes",
+        "title": "Class notes",
+        "url": "https://docs.google.com/spreadsheets/d/1cMtW2MV8zoIFQwd6dOaGQ82p0J3DwkHt2jyPMXm5eGA/edit?usp=sharing"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQBP1vUdsmgbQrS6IdYWqa5NAUrXMW5r26qSox9HJJhTrI4?e=glL0QG"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML14",
+        "title": "Logistic regression",
+        "url": "cheatsheets/ML14-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-C4",
+        "title": "Softmax turns the scores 2, 1, 0 into probabilities. What does the 0 class get?",
+        "url": "https://youtu.be/5sR_yEo4Arg"
+      }
+    ],
+    "videos": [
+      {
+        "id": "DN8l-ajDS80",
+        "title": "Gradient and Learning",
+        "url": "https://youtu.be/DN8l-ajDS80",
+        "duration": "PT2M3S"
+      },
+      {
+        "id": "UCsx6fVxw9E",
+        "title": "Multi-Class with Softmax",
+        "url": "https://youtu.be/UCsx6fVxw9E",
+        "duration": "PT5M3S"
+      }
+    ]
+  },
+  {
+    "number": 17,
+    "date": "Wed 9 Sep",
+    "title": "Assignment 2 tutorial: logistic regression",
+    "materials": [
+      {
+        "type": "code",
+        "title": "Assignment 2",
+        "url": "https://github.com/nipunbatra/em619-2026/blob/main/assignments/a2/EM619_Assignment2.ipynb"
+      },
+      {
+        "type": "code",
+        "title": "Notebook solution",
+        "url": "https://github.com/nipunbatra/em619-2026/blob/main/assignments/a2/EM619_Assignment2_SOLUTION.ipynb"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQDOSo6cDyBVQqrmZe9zKFHUAR6z012zG6RqiotshRRg__0?e=FAKqbr"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML14",
+        "title": "Logistic regression",
+        "url": "cheatsheets/ML14-cheatsheet.pdf"
+      },
+      {
+        "id": "ML01",
+        "title": "Conventions and metrics",
+        "url": "cheatsheets/ML01-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-C4",
+        "title": "Softmax turns the scores 2, 1, 0 into probabilities. What does the 0 class get?",
+        "url": "https://youtu.be/5sR_yEo4Arg"
+      },
+      {
+        "id": "ML-A1",
+        "title": "A test is 99% accurate. Is it a good test?",
+        "url": "https://youtu.be/IMrH-hsz7Kg"
+      }
+    ],
+    "videos": [
+      {
+        "id": "DN8l-ajDS80",
+        "title": "Gradient and Learning",
+        "url": "https://youtu.be/DN8l-ajDS80",
+        "duration": "PT2M3S"
+      },
+      {
+        "id": "UCsx6fVxw9E",
+        "title": "Multi-Class with Softmax",
+        "url": "https://youtu.be/UCsx6fVxw9E",
+        "duration": "PT5M3S"
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "date": "Sat 12 Sep",
+    "title": "Neural networks: tensors and autograd",
+    "materials": [
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://github.com/nipunbatra/pytorch-basics/blob/main/notebooks/01-tensors-and-autograd.ipynb"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQC8MncEmnYeR7dRYldSlaaXAcBDGlv8b8FS4EOiWa6NEJ0?e=i7IuP2"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML18",
+        "title": "Automatic differentiation",
+        "url": "cheatsheets/ML18-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-N7",
+        "title": "f = (x + y) \u00d7 z at x = 2, y = 3, z = 4. Nudge x by 0.01: how much does f go up?",
+        "url": "https://youtu.be/jOSjDn9qGqo"
+      }
+    ],
+    "videos": [
+      {
+        "id": "eN79pT_8RMU",
+        "title": "Computational Graphs",
+        "url": "https://youtu.be/eN79pT_8RMU",
+        "duration": "PT2M29S"
+      },
+      {
+        "id": "eB7ROt3NFBI",
+        "title": "Backprop by hand: one local rule",
+        "url": "https://youtu.be/eB7ROt3NFBI",
+        "duration": "PT3M3S"
+      }
+    ]
+  },
+  {
+    "number": 19,
+    "date": "Wed 16 Sep",
+    "title": "Neural networks: regression",
+    "materials": [
+      {
+        "type": "code",
+        "title": "Notebook",
+        "url": "https://github.com/nipunbatra/pytorch-basics/blob/main/notebooks/02-linear-regression.ipynb"
+      },
+      {
+        "type": "recording",
+        "title": "Class recording",
+        "url": "https://iitgnacin-my.sharepoint.com/:v:/g/personal/iitgnx_iitgn_ac_in/IQC6OSP9A2hdSq_-_WwSZCMjAXKSEwCOLuWbRy03x96YAKk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PvqZUN"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML08",
+        "title": "Linear regression I: normal equation and geometry",
+        "url": "cheatsheets/ML08-cheatsheet.pdf"
+      },
+      {
+        "id": "ML10",
+        "title": "Gradient descent and SGD",
+        "url": "cheatsheets/ML10-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-R1",
+        "title": "Line 1 passes through 3 of 4 points, line 2 through none. Which has less squared error?",
+        "url": "https://youtu.be/g7E2T9TrUps"
+      },
+      {
+        "id": "ML-O3",
+        "title": "Each step nudges a line toward one random point. Does the error drop every step?",
+        "url": "https://youtu.be/Sm0PMOkrzOc"
+      }
+    ],
+    "videos": [
+      {
+        "id": "htrD7kvmYAo",
+        "title": "Worked Example",
+        "url": "https://youtu.be/htrD7kvmYAo",
+        "duration": "PT2M49S"
+      },
+      {
+        "id": "iByVRBf1nAA",
+        "title": "SGD vs minibatch: how much data per step?",
+        "url": "https://youtu.be/iByVRBf1nAA",
+        "duration": "PT3M"
+      }
+    ]
+  },
+  {
+    "number": 20,
+    "date": "Sat 19 Sep",
+    "title": "Multi-layer perceptrons",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/neural-networks/slides/mlp.pdf"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML17",
+        "title": "Multi-layer perceptrons",
+        "url": "cheatsheets/ML17-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-N1",
+        "title": "Can one straight line put the blue points on one side and the amber on the other?",
+        "url": "https://youtu.be/3kj-oWLnEew"
+      },
+      {
+        "id": "ML-N2",
+        "title": "What is the fewest number of straight lines that separates XOR?",
+        "url": "https://youtu.be/XFfuSMYx1JU"
+      }
+    ],
+    "videos": [
+      {
+        "id": "NiuHB2wx4yw",
+        "title": "The Multi-Layer Perceptron",
+        "url": "https://youtu.be/NiuHB2wx4yw",
+        "duration": "PT1M42S"
+      },
+      {
+        "id": "D3lqS2NFQYA",
+        "title": "XOR Solved by an MLP",
+        "url": "https://youtu.be/D3lqS2NFQYA",
+        "duration": "PT1M49S"
+      }
+    ]
+  },
+  {
+    "number": 21,
+    "date": "Wed 23 Sep",
+    "title": "MLP continued",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/neural-networks/slides/mlp.pdf"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML17",
+        "title": "Multi-layer perceptrons",
+        "url": "cheatsheets/ML17-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-N5",
+        "title": "784 inputs, 100 hidden units, 1 output. How many numbers does the network learn?",
+        "url": "https://youtu.be/dUEAiuJu3SM"
+      },
+      {
+        "id": "ML-N6",
+        "title": "Weights 1 and 1, bias -1.5: which logic gate is this neuron?",
+        "url": "https://youtu.be/LRIB3plf56Q"
+      }
+    ],
+    "videos": [
+      {
+        "id": "uqvNkihYrBc",
+        "title": "Vectorized Forward Propagation",
+        "url": "https://youtu.be/uqvNkihYrBc",
+        "duration": "PT1M51S"
+      },
+      {
+        "id": "wvp_OmQU_zU",
+        "title": "Parameter Counting",
+        "url": "https://youtu.be/wvp_OmQU_zU",
+        "duration": "PT1M44S"
+      }
+    ]
+  },
+  {
+    "number": 22,
+    "date": "Sat 26 Sep",
+    "title": "Next token prediction",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/neural-networks/slides/next-token-prediction.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook: Names",
+        "url": "https://nipunbatra.github.io/ml-teaching/notebooks/names.html"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML19",
+        "title": "Next-character prediction",
+        "url": "cheatsheets/ML19-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-N9",
+        "title": "A language model reads \"the cat sat on the\". What does it output?",
+        "url": "https://youtu.be/NLmtPqhUoRI"
+      }
+    ],
+    "videos": [
+      {
+        "id": "Wd7Csj27Gzc",
+        "title": "What is Next Token Prediction?",
+        "url": "https://youtu.be/Wd7Csj27Gzc",
+        "duration": "PT1M47S"
+      },
+      {
+        "id": "x-XqF5c-H0c",
+        "title": "Building the Training Set",
+        "url": "https://youtu.be/x-XqF5c-H0c",
+        "duration": "PT1M56S"
+      },
+      {
+        "id": "s6JWiSYMeOo",
+        "title": "Character Embeddings",
+        "url": "https://youtu.be/s6JWiSYMeOo",
+        "duration": "PT1M56S"
+      },
+      {
+        "id": "1qza_VPINVE",
+        "title": "Next-token prediction from scratch",
+        "url": "https://youtu.be/1qza_VPINVE",
+        "duration": "PT3M1S"
+      }
+    ]
+  },
+  {
+    "number": 23,
+    "date": "Wed 30 Sep",
+    "title": "Autograd",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Slides",
+        "url": "https://nipunbatra.github.io/ml-teaching/neural-networks/slides/autograd.pdf"
+      },
+      {
+        "type": "code",
+        "title": "Notebook: Automatic differentiation",
+        "url": "https://nipunbatra.github.io/ml-teaching/notebooks/autodiff.html"
+      }
+    ],
+    "sheets": [
+      {
+        "id": "ML18",
+        "title": "Automatic differentiation",
+        "url": "cheatsheets/ML18-cheatsheet.pdf"
+      }
+    ],
+    "shorts": [
+      {
+        "id": "ML-N7",
+        "title": "f = (x + y) \u00d7 z at x = 2, y = 3, z = 4. Nudge x by 0.01: how much does f go up?",
+        "url": "https://youtu.be/jOSjDn9qGqo"
+      },
+      {
+        "id": "ML-N12",
+        "title": "The slope of 3x\u00b2 + 2x + 1 at x = 2 is 14. Nudge x by 10\u207b\u00b2\u2070: what slope do you get?",
+        "url": "https://youtu.be/Q1CsfdALa1I"
+      }
+    ],
+    "videos": [
+      {
+        "id": "7IO6EsqKFb4",
+        "title": "Full Backward Pass Example",
+        "url": "https://youtu.be/7IO6EsqKFb4",
+        "duration": "PT3M8S"
+      },
+      {
+        "id": "dQkSNXe9uc8",
+        "title": "Building an Autograd Engine",
+        "url": "https://youtu.be/dQkSNXe9uc8",
+        "duration": "PT2M46S"
+      }
+    ]
+  },
+  {
+    "number": 24,
+    "date": "Fri 2 Oct",
+    "title": "Course recap",
+    "materials": [
+      {
+        "type": "slides",
+        "title": "Present recap",
+        "url": "lectures/recap/index.html?present"
+      },
+      {
+        "type": "slides",
+        "title": "Recap PDF",
+        "url": "lectures/recap/em619-course-recap.pdf"
+      },
+      {
+        "type": "notes",
+        "title": "Teaching guide",
+        "url": "lectures/recap/TEACHING_GUIDE.md"
+      }
+    ],
+    "sheets": [],
+    "shorts": [],
+    "videos": []
+  }
+]

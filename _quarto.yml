@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "cheatsheets/*.pdf"
+    - "lectures/recap/index.html"
+    - "lectures/recap/em619-course-recap.pdf"
+    - "lectures/recap/TEACHING_GUIDE.md"
   render:
     - index.qmd
     - schedule.qmd
@@ -10,7 +15,7 @@ project:
 website:
   title: "EM 619: Machine Learning for Predictive Analysis"
   description: "EM 619 (MLPA) — part of the e-Masters in Data Science for Decision Making (DSDM) at IIT Gandhinagar"
-  favicon: images/favicon.png
+  favicon: favicon.svg
   open-graph: true
   navbar:
     background: "#ffffff"
@@ -20,7 +25,7 @@ website:
       - href: index.qmd
         text: Home
       - href: schedule.qmd
-        text: Schedule
+        text: Lectures
       - href: grading.qmd
         text: Evaluation
       - href: faq.qmd
@@ -31,17 +36,17 @@ website:
     left: "EM 619: Machine Learning for Predictive Analysis | IIT Gandhinagar"
     center: "© 2026 Nipun Batra"
     right: "Made with [Quarto](https://quarto.org) | [Prof. Nipun Batra](https://nipunbatra.github.io)"
-    background: "#fffbeb"
+    background: "#FAFBFC"
 
 format:
   html:
     theme: [cosmo, styles.scss]
-    css: [styles.scss]
+    include-after-body: course-tools.html
     toc: false
     page-layout: full
     smooth-scroll: true
     highlight-style: github
-    mainfont: "Inter, system-ui, -apple-system, sans-serif"
+    mainfont: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
     monofont: "JetBrains Mono, Monaco, Consolas, monospace"
     code-copy: true
     code-overflow: wrap

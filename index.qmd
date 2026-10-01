@@ -5,7 +5,7 @@ pagetitle: "EM 619: Machine Learning for Predictive Analysis"
 ---
 
 ::: {.callout-note}
-## Course Information
+## Course information
 
 **Instructor:** [Prof. Nipun Batra](https://nipunbatra.github.io) — [nipun.batra@iitgn.ac.in](mailto:nipun.batra@iitgn.ac.in) · Office AB 13/401C · +91 79 2395 2539
 
@@ -21,9 +21,16 @@ pagetitle: "EM 619: Machine Learning for Predictive Analysis"
 **Term:** Module 3, 2026 — classes begin **Saturday, 27 June 2026**
 :::
 
-## Course Objectives
+```{=html}
+<nav class="course-home-links" aria-label="Course resources">
+<a class="course-home-link course-home-primary" href="schedule.html"><i class="bi bi-journal-text" aria-hidden="true"></i><span><span class="course-home-link-title">Lectures and revision</span><span class="course-home-link-detail">Slides, notebooks, recordings, 1-minute Shorts, 3-minute videos and cheatsheets.</span></span></a>
+<a class="course-home-link" href="lectures/recap/index.html?present"><i class="bi bi-easel" aria-hidden="true"></i><span><span class="course-home-link-title">Course recap</span><span class="course-home-link-detail">The lectures taught, revisited in 55 minutes. Interactive slides and a PDF.</span></span></a>
+</nav>
+```
 
-This course enables students to comprehend fundamental machine learning concepts and apply a variety of algorithms to develop predictive models. It covers the essential aspects of predictive modeling — regression, decision trees, SVM, and neural networks — with emphasis on:
+## Course objectives
+
+In this course, students learn how to build predictive models and check how well they work on new data. The syllabus covers regression, decision trees, SVMs and neural networks, with emphasis on:
 
 - **Evaluating** model performance using appropriate metrics and selecting the optimal model for a task.
 - **Feature selection and engineering**, the bias–variance trade-off, overfitting and underfitting — managed via regularization and cross-validation.
@@ -47,7 +54,7 @@ This course enables students to comprehend fundamental machine learning concepts
 
 **7 · Predictive Modelling in Practice** — applications in healthcare, finance, retail, manufacturing; ethics, fairness & transparency; an end-to-end project.
 
-The date-wise breakdown with slides and notebooks lives on the [Schedule](schedule.qmd) page.
+See the [lecture record](schedule.qmd) for the topics covered, slides, notebooks and revision resources. The syllabus above describes the planned course; the lecture record shows what was taught.
 
 ## Prerequisites
 
@@ -58,7 +65,7 @@ No hard prerequisites, but the following background helps you keep pace:
 - **Calculus** — derivatives and the chain rule
 - **Probability & statistics** — distributions, expectations, hypothesis testing
 
-### Preparation Materials
+### Preparation materials
 
 To refresh before the course begins:
 
@@ -67,7 +74,7 @@ To refresh before the course begins:
 - [Khan Academy: Statistics & Probability](https://www.khanacademy.org/math/statistics-probability)
 - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) — free PDF
 
-## Reference Textbooks
+## Reference textbooks
 
 **Primary references:**
 
@@ -83,7 +90,7 @@ To refresh before the course begins:
 7. **Machine Learning** — Tom Mitchell
 8. **Machine Learning: A Probabilistic Perspective** — Kevin Murphy
 
-## Additional Learning Resources
+## Additional learning resources
 
 **Online courses:**
 

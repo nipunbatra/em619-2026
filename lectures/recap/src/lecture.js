@@ -1,0 +1,24 @@
+'use strict';
+(()=>{
+ const $=id=>document.getElementById(id),meta=JSON.parse($('slide-data').textContent),slides=[...document.querySelectorAll('.slide')];
+ let index=Math.max(0,meta.findIndex(s=>s.id===location.hash.slice(1))),presenting=false,timer;
+ const toolbar=document.querySelector('.toolbar');
+ function wake(){clearTimeout(timer);document.body.classList.remove('idle');toolbar.inert=false;if(presenting)timer=setTimeout(()=>{if(toolbar.matches(':hover')||toolbar.contains(document.activeElement)||$('dialog').open)return;document.body.classList.add('idle');toolbar.inert=true},2500)}
+ function size(){document.documentElement.style.setProperty('--scale',Math.min(innerWidth/1280,(innerHeight-20)/720))}
+ function go(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,j)=>{s.classList.toggle('active',j===index);s.querySelector('.qbox').classList.remove('open');if(presenting)s.setAttribute('aria-hidden',String(j!==index));else s.removeAttribute('aria-hidden')});$('counter').textContent=`${index+1} / ${slides.length}`;$('prev').disabled=index===0;$('next').disabled=index===slides.length-1;const u=new URL(location.href);u.hash=meta[index].id;presenting?u.searchParams.set('present',''):u.searchParams.delete('present');history.replaceState(null,'',u);if(!presenting)slides[index].scrollIntoView({block:'start'});wake()}
+ function present(v){presenting=v;document.body.classList.toggle('present',v);$('present').textContent=v?'Read (P)':'Present (P)';size();go(index)}
+ function dialog(title,body){$('dialog-title').textContent=title;$('dialog-body').innerHTML=body;$('dialog').showModal()}
+ const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ function info(kind,i=index){const s=meta[i];dialog(kind==='answer'?'Question and answer':s.title,kind==='answer'?`<p><strong>${esc(s.question)}</strong></p><p>${esc(s.answer)}</p>`:`<p>${esc(s.notes)}</p><p>Suggested time: ${s.seconds} seconds.</p><p><a href="${esc(s.source)}">Original class material</a></p>`)}
+ function overview(){dialog('Course recap · 55 minutes',meta.map((s,i)=>`<button data-go="${i}">${String(i+1).padStart(2,'0')} · ${esc(s.title)}</button>`).join(''));$('dialog-body').querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>{$('dialog').close();go(+b.dataset.go)})}
+ $('prev').onclick=()=>go(index-1);$('next').onclick=()=>go(index+1);$('present').onclick=()=>present(!presenting);$('overview').onclick=overview;$('question').onclick=()=>slides[index].querySelector('.qbox').classList.toggle('open');$('answer').onclick=()=>info('answer');$('notes').onclick=()=>info('notes');$('close').onclick=()=>$('dialog').close();
+ window.addEventListener('resize',size);window.addEventListener('pointermove',wake,{passive:true});window.addEventListener('pointerdown',wake,{passive:true});
+ window.addEventListener('keydown',e=>{wake();if(e.ctrlKey||e.metaKey||e.altKey||$('dialog').open||['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName))return;const k=e.key.toLowerCase();const actions={p:()=>present(!presenting),o:overview,q:()=>$('question').click(),a:()=>info('answer'),s:()=>info('notes')};if(actions[k]){e.preventDefault();actions[k]();return}if(!presenting)return;if(['arrowright','pagedown','n'].includes(k)){e.preventDefault();go(index+1)}if(['arrowleft','pageup'].includes(k)){e.preventDefault();go(index-1)}if(k===' '&&!['BUTTON','A','SUMMARY'].includes(e.target.tagName)){e.preventDefault();go(index+1)}if(k==='home')go(0);if(k==='end')go(slides.length-1);if(k==='escape')present(false)});
+ document.querySelectorAll('[data-rate]').forEach(b=>b.onclick=()=>{const s=b.closest('.slide');s.querySelector('.visual').innerHTML=JSON.parse($('gd-data').textContent)[b.dataset.rate];s.querySelectorAll('[data-rate]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)))});
+ // The progression is a literal example trace, not model inference.
+ let step=0;const gen=$('name-generate');function genState(){gen.querySelectorAll('svg text').forEach(t=>{if(+t.getAttribute('y')>75)t.classList.toggle('generation-muted',+t.getAttribute('y')>125+step*64)});$('gen-state').textContent=step===4?'Complete trace':`Trace step ${step+1}`;}
+ $('gen-next').onclick=()=>{step=Math.min(4,step+1);genState()};$('gen-reset').onclick=()=>{step=0;genState()};genState();
+ window.addEventListener('hashchange',()=>{const i=meta.findIndex(s=>s.id===location.hash.slice(1));if(i>=0)go(i)});
+ const observer=new IntersectionObserver(entries=>{if(presenting)return;const e=entries.filter(e=>e.isIntersecting).sort((a,b)=>Math.abs(a.boundingClientRect.top)-Math.abs(b.boundingClientRect.top))[0];if(e){index=slides.indexOf(e.target);$('counter').textContent=`${index+1} / ${slides.length}`}}, {rootMargin:'-10% 0px -65% 0px'});slides.forEach(s=>observer.observe(s));
+ window.recap={meta,slides,go,present,get index(){return index}};present(new URLSearchParams(location.search).has('present')&&innerWidth>760);
+})();
