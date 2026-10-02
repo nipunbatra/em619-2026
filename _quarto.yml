@@ -20,7 +20,7 @@ website:
   navbar:
     background: "#ffffff"
     foreground: "#333333"
-    title: "EM 619 · MLPA"
+    title: "EM 619"
     right:
       - href: index.qmd
         text: Home
@@ -41,6 +41,7 @@ website:
 format:
   html:
     theme: [cosmo, styles.scss]
+    include-in-header: course-theme.html
     include-after-body: course-tools.html
     toc: false
     page-layout: full

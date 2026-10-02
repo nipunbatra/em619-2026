@@ -2,10 +2,23 @@ const p=require('puppeteer'),fs=require('node:fs'),path=require('node:path'),ass
 (async()=>{const b=await p.launch({headless:true});try{
  const page=await b.newPage(),root=path.resolve(__dirname,'..'),report=[],errors=[];page.on('pageerror',e=>errors.push(String(e)));
  const base=process.env.COURSE_URL||'file://'+root+'/docs/';
- for(const width of [1280,390])for(const color of ['light','dark']){
+ await page.emulateMediaFeatures([{name:'prefers-color-scheme',value:'dark'}]);
+ await page.goto(base+'index.html',{waitUntil:'load'});
+ await page.evaluate(()=>localStorage.removeItem('em619-2026-theme'));await page.reload({waitUntil:'load'});
+ const theme=()=>page.$eval('html',e=>e.dataset.bsTheme);
+ assert.equal(await theme(),'light','A fresh visit must start light even on a dark device');
+ await page.click('#course-theme-toggle');assert.equal(await theme(),'dark');
+ await page.reload({waitUntil:'load'});assert.equal(await theme(),'dark','Choice survives reload');
+ await page.goto(base+'schedule.html',{waitUntil:'load'});assert.equal(await theme(),'dark','Choice survives navigation');
+ await page.focus('#course-theme-toggle');await page.keyboard.press('Enter');assert.equal(await theme(),'light');
+ await page.reload({waitUntil:'load'});assert.equal(await theme(),'light');
+
+ for(const width of [1280,390,320])for(const color of ['light','dark']){
   await page.setViewport({width,height:900});await page.emulateMediaFeatures([{name:'prefers-color-scheme',value:color}]);
   for(const file of ['index.html','schedule.html','grading.html','faq.html']){
    await page.goto(base+file,{waitUntil:'load'});
+   if(await theme()!==color)await page.click('#course-theme-toggle');
+   assert.equal(await theme(),color);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,`${file} overflows at ${width}`);
    report.push({file,width,color,overflow:false});
    if(file==='schedule.html'){

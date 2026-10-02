@@ -80,36 +80,36 @@ def regression(stage=0):
   s+=f'<circle cx="{px(x)}" cy="{py(y)}" r="7" fill="{I}"/>'
   if stage:s+=line(px(x),py(y),px(x),py(1.5*x+1/3),R,3)
  if stage:s+=line(px(0),py(1/3),px(3.8),py(1.5*3.8+1/3),B,3)
- s+=txt(615,85,'ŷ = w x + b',39,B)+txt(615,150,'Data: (1, 2), (2, 3), (3, 5)',25)
- if stage:s+=txt(615,220,'w = 1.5     b = 1/3',31)+txt(615,280,'Residuals: 1/6, −1/3, 1/6',26,M)+txt(615,345,'SSE = 1/6     MSE = 1/18',28,B)
+ s+=txt(615,85,'ŷ = θ₀ + θ₁x',39,B)+txt(615,150,'Data: (1, 2), (2, 3), (3, 5)',25)
+ if stage:s+=txt(615,220,'θ₀ = 1/3     θ₁ = 1.5',31)+txt(615,280,'Residuals: 1/6, −1/3, 1/6',26,M)+txt(615,345,'SSE = 1/6     MSE = 1/18',28,B)
  else:s+=txt(615,240,'Find one slope and one intercept.',27,M)
  return svg(s)
 def geometry():
  s=arrow(130,340,450,160,B)+arrow(130,340,710,80,R)+arrow(450,160,710,80,G)
- s+=line(20,390,710,2,L,2)+txt(165,295,'ŷ = Xβ',29,B)+txt(405,125,'y',32,R)+txt(590,164,'r = y − ŷ',28,G)
+ s+=line(20,390,710,2,L,2)+txt(165,295,'ŷ = Xθ',29,B)+txt(405,125,'y',32,R)+txt(590,164,'r = y − ŷ',28,G)
  s+=txt(770,130,'Xᵀr = 0',37,B)+txt(750,220,'Residual is orthogonal',26)+txt(750,260,'to every column of X.',26)+txt(130,400,'Schematic: fitted vector lies in the column space of X.',24,M)
  # Deliberate correct orthogonal residual: fit vector (320,-180), residual (90,160).
- s=arrow(130,340,550,100,B)+arrow(130,340,670,310,R)+arrow(550,100,670,310,G)+line(60,380,665,35,L)+txt(275,200,'ŷ = Xβ',29,B)+txt(380,360,'y',32,R)+txt(620,185,'r',29,G)+txt(770,130,'Xᵀr = 0',37,B)+txt(750,220,'Residual is orthogonal',26)+txt(750,260,'to every column of X.',26)+txt(130,400,'Schematic: fitted vector lies in the column space of X.',24,M)
+ s=arrow(130,340,550,100,B)+arrow(130,340,670,310,R)+arrow(550,100,670,310,G)+line(60,380,665,35,L)+txt(275,200,'ŷ = Xθ',29,B)+txt(380,360,'y',32,R)+txt(620,185,'r',29,G)+txt(770,130,'Xᵀr = 0',37,B)+txt(750,220,'Residual is orthogonal',26)+txt(750,260,'to every column of X.',26)+txt(130,400,'Schematic: fitted vector lies in the column space of X.',24,M)
  return svg(s)
 def gd(rate=.1):
  vals=[4.0]
  for i in range(4):vals.append(vals[-1]*(1-2*rate))
  px=lambda w:285+22*w
  py=lambda w:345-3.3*w*w
- s=axes(xlabel='w',ylabel='J(w) = w²')
+ s=axes(xlabel='θ',ylabel='J(θ) = θ²')
  s+=path([(px(-9+i*.18),py(-9+i*.18)) for i in range(101)],B)
  points=[(px(w),py(w)) for w in vals]
  s+=path(points,R,2,'5 4')
  for i,(x,y) in enumerate(points):s+=f'<circle cx="{x}" cy="{y}" r="5" fill="{R}"/>'
  s+=txt(px(4)+10,py(4)-12,'start: 4',21,R)+txt(px(0),378,'0',20,M,'middle')
- s+=txt(610,85,'w ← w − η · 2w',39,B)+txt(610,160,f'η = {rate:g}',31)
+ s+=txt(610,85,'θ ← θ − η · 2θ',39,B)+txt(610,160,f'η = {rate:g}',31)
  s+=txt(610,235,' → '.join(f'{x:.2f}' for x in vals[:3]),29)+txt(610,295,' → '.join(f'{x:.2f}' for x in vals[3:]),29)
  s+=txt(610,370,'Red dots: successive parameter values.',23,M)
  return svg(s)
 
 def sigmoid():
  s=axes(xlabel='score z',ylabel='p(y = 1)');s+=path([(70+i*4,345-280/(1+math.exp(-(i-50)/10))) for i in range(101)])
- s+=line(65,205,475,205,L,2,'6 4')+txt(72,196,'0.5',23,M)+txt(595,95,'z = wᵀx + b',35)+txt(595,175,'p = 1 / (1 + exp(−z))',35,B)+txt(595,260,'z = 0  →  p = 0.5',30)+txt(595,320,'z ≈ 2.20  →  p ≈ 0.90',30)
+ s+=line(65,205,475,205,L,2,'6 4')+txt(72,196,'0.5',23,M)+txt(595,95,'z = θ₀ + Σⱼ₌₁ᵈ θⱼxⱼ',35)+txt(595,175,'p = 1 / (1 + exp(−z))',35,B)+txt(595,260,'z = 0  →  p = 0.5',30)+txt(595,320,'z ≈ 2.20  →  p ≈ 0.90',30)
  return svg(s)
 def xor(stage=0):
  s=axes(xlabel='x₁',ylabel='x₂')
@@ -153,5 +153,5 @@ def agenda():return rows(['Topics'],[['Data, tasks and evaluation'],['Trees, mod
 def basis():
  s=axes(xlabel='x',ylabel='ŷ')
  s+=path([(80+i*4,320-.022*(i-10)**2) for i in range(101)],B)
- s+=txt(630,70,'x → [1, x, x²]',36,B)+txt(630,160,'ŷ = β₀ + β₁x + β₂x²',34)+txt(630,250,'Curved in x',30)+txt(630,295,'Linear in β₀, β₁, β₂',30,B)+txt(630,375,'Choose the basis using validation.',23,M)
+ s+=txt(630,70,'x → [1, x, x²]',36,B)+txt(630,160,'ŷ = θ₀ + θ₁x + θ₂x²',34)+txt(630,250,'Curved in x',30)+txt(630,295,'Linear in θ₀, θ₁, θ₂',30,B)+txt(630,375,'Choose the basis using validation.',23,M)
  return svg(s)

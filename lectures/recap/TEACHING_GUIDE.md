@@ -215,7 +215,7 @@ Two parameters describe the rule; the data determine their fitted values.
 
 **Ask:** What are the trainable parameters in this model?
 
-**Answer:** The slope w and intercept b. The observations x and targets y are fixed during fitting.
+**Answer:** The slope θ₁ and intercept θ₀. The observations x and targets y are fixed during fitting.
 
 Use the same three observations over the next two frames. Ask what would change for a second input feature. Then connect a list of scalar predictions to the matrix representation.
 
@@ -235,7 +235,7 @@ Exact arithmetic: fitted values are 11/6, 10/3 and 29/6; residuals y−ŷ are 1/
 
 ### 18 · The normal equation (18:00, 60 s)
 
-If X has full column rank: β̂ = (XᵀX)⁻¹Xᵀy.
+If X has full column rank: θ̂ = (XᵀX)⁻¹Xᵀy.
 
 **Ask:** What fails when one column is an exact copy of another?
 
@@ -249,7 +249,7 @@ The equation follows by setting the squared-error gradient to zero. In code use 
 
 The fitted vector is the closest point to y within the column space of X.
 
-**Ask:** What does Xᵀ(y − Xβ̂) = 0 mean geometrically?
+**Ask:** What does Xᵀ(y − Xθ̂) = 0 mean geometrically?
 
 **Answer:** The residual is perpendicular to every feature column, hence to the column space of X.
 
@@ -261,7 +261,7 @@ Point to the blue fitted vector, then the green residual joining it to y. The di
 
 Basis functions change the representation; least squares can remain the fitter.
 
-**Ask:** Is β₀ + β₁x + β₂x² a linear regression model?
+**Ask:** Is θ₀ + θ₁x + θ₂x² a linear regression model?
 
 **Answer:** Yes: it is linear in the fitted coefficients, even though its output is curved as a function of x.
 
@@ -275,7 +275,7 @@ When features repeat information, individual coefficients can be unstable.
 
 **Ask:** Does an unstable coefficient always imply unstable fitted predictions?
 
-**Answer:** No. Here only w₁+w₂ is identifiable from the data, and every row predicts the same value.
+**Answer:** No. Here only θ₁+θ₂ is identifiable from the data, and every row predicts the same value.
 
 Distinguish exact duplication from strong correlation. Exact duplication gives nonuniqueness; near duplication makes estimates sensitive to small changes. Interpret coefficients cautiously. Ridge will choose among such solutions using a penalty.
 
@@ -285,9 +285,9 @@ Distinguish exact duplication from strong correlation. Exact duplication gives n
 
 For a differentiable objective: θ ← θ − η∇J(θ).
 
-**Ask:** For J(w)=w², w=4 and η=0.1, what is the next w?
+**Ask:** For J(θ)=θ², θ=4 and η=0.1, what is the next θ?
 
-**Answer:** The gradient is 2w=8; the update gives 4−0.1×8=3.2.
+**Answer:** The gradient is 2θ=8; the update gives 4−0.1×8=3.2.
 
 First-order Taylor approximation: J(θ+Δ)≈J(θ)+∇JᵀΔ. A sufficiently small step against a nonzero gradient is a local descent direction. The learning rate controls the distance, not the gradient itself.
 
@@ -295,13 +295,13 @@ First-order Taylor approximation: J(θ+Δ)≈J(θ)+∇JᵀΔ. A sufficiently sma
 
 ### 23 · The learning rate can change the outcome (23:00, 60 s)
 
-For this quadratic, wₜ₊₁ = (1−2η)wₜ; convergence requires 0 < η < 1.
+For this quadratic, θₜ₊₁ = (1−2η)θₜ; convergence requires 0 < η < 1.
 
-**Ask:** What happens at η=1.1, starting from w=4?
+**Ask:** What happens at η=1.1, starting from θ=4?
 
 **Answer:** Weights alternate sign and grow: 4, −4.8, 5.76, −6.912, 8.2944. The objective diverges.
 
-Use the three rate buttons. Ask for the sign of the next iterate before switching. The stated convergence interval is specific to J(w)=w²; it is not a universal learning-rate recommendation.
+Use the three rate buttons. Ask for the sign of the next iterate before switching. The stated convergence interval is specific to J(θ)=θ²; it is not a universal learning-rate recommendation.
 
 [Original class material](https://nipunbatra.github.io/ml-teaching/optimization/slides/gradient-descent.pdf)
 
